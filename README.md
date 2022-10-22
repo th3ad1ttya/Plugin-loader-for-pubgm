@@ -2,6 +2,3 @@
 ## To connect the app with your backend/server-> Upload update.json from project root in your server and read the file named update.json.
 ## Use daemon to compile lib/netive library to support the cheats.
 ## Need smaller customizations to compeatly re-brand with your channel/brand name.
------------------------------------------------------------#� �P�l�u�g�i�n�-�l�o�a�d�e�r�-�f�o�r�-�p�u�b�g�m�
-�
-�
