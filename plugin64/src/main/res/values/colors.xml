@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_300">#00FFE6</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="ss_Color_primary">#FF1F2B3F</color>
+    <color name="ss_Color_Secondly">#FF040E28</color>
+    <color name="textColorPrimary">#FFFFFFFF</color>
+    <color name="textColorSecondly">#FFAAAAAA</color>
+    <color name="textColorThirdly">#FFBCBFC6</color>
+    <color name="colorAccent">#FF5CD3B4</color>
+    <color name="clr_otherText">#1F000000</color>
+    <color name="fwind_main_tab_bg">#FF182231</color>
+    <color name="editor_color_pink">#FFFFBEDC</color>
+
+    <color name="default_click">#ff4b4b4b</color>
+    <color name="on_click">#8F8E8E</color>
+    <color name="clickFeedBack">#652F3EC3</color>
+    <color name="clickFeedBackStrock">#E12F3EC3</color>
+    <color name="clickConfirm">#7CBAC0C6</color>
+
+    <color name="ColorTextPrimary">#FFFFFF</color>
+    <color name="clr_button">#FF5CD3B5</color>
+    <color name="horizontal_dividing_line">#99AAAAAA</color>
+    <color name="ColorTextSecondly">#FFAAAAAA</color>
+</resources>

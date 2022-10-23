@@ -1,0 +1,1058 @@
+# compiler: R8
+# compiler_version: 2.1.86
+# min_api: 21
+# pg_map_id: 3b39367
+# common_typos_disable
+com.rcheats.loader.-$$Lambda$MainLoader$-6kGNIHoQqN6ttpaleBiPmCoPi0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj:
+    android.widget.ScrollView f$2 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    android.widget.ScrollView f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    android.widget.ScrollView f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$39(android.widget.ScrollView,android.widget.ScrollView,android.widget.ScrollView,android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$-YK_1248z01d2swd_QCuS03wRkU -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$37(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$37$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$-_jxt3nVz-V5iy12QfKQLEhxgK4 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx:
+    android.widget.Switch f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$addSwitch$58(android.widget.Switch,android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$44jcxBaFNHE-vDl-3WAo4OL4Z7w -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.nAiDtGlYlaGLtNRklZgBXGLbSLpYVK:
+    com.rcheats.loader.-$$Lambda$MainLoader$44jcxBaFNHE-vDl-3WAo4OL4Z7w INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$6():0:0 -> run
+    1:1:void run():0 -> run
+com.rcheats.loader.-$$Lambda$MainLoader$5TdpalhVj-uyBIfXrO_zx_XWSUE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.QZFmQyQscknaDvcgWvEcvzpCvVjZgU:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$27(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$27$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$6uf-45GKTb4MidbAi3mJc2OAvZo -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dtNrvlNDjWTiaDsElifnVGZxXoFHlO:
+    android.widget.RadioButton[] f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56$MainLoader(android.widget.RadioButton[],android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+    2:2:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56(android.widget.RadioButton[],android.view.View):0:0 -> onClick
+    2:2:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56$MainLoader(android.widget.RadioButton[],android.view.View):0 -> onClick
+    2:2:void onClick(android.view.View):0 -> onClick
+    3:3:void com.rcheats.loader.utils.RShared.setInt(java.lang.String,int):0:0 -> onClick
+    3:3:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56(android.widget.RadioButton[],android.view.View):0 -> onClick
+    3:3:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56$MainLoader(android.widget.RadioButton[],android.view.View):0 -> onClick
+    3:3:void onClick(android.view.View):0 -> onClick
+    4:4:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56(android.widget.RadioButton[],android.view.View):0:0 -> onClick
+    4:4:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56$MainLoader(android.widget.RadioButton[],android.view.View):0 -> onClick
+    4:4:void onClick(android.view.View):0 -> onClick
+    5:5:void com.rcheats.loader.utils.RShared.setInt(java.lang.String,int):0:0 -> onClick
+    5:5:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56(android.widget.RadioButton[],android.view.View):0 -> onClick
+    5:5:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56$MainLoader(android.widget.RadioButton[],android.view.View):0 -> onClick
+    5:5:void onClick(android.view.View):0 -> onClick
+    6:6:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56(android.widget.RadioButton[],android.view.View):0:0 -> onClick
+    6:6:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56$MainLoader(android.widget.RadioButton[],android.view.View):0 -> onClick
+    6:6:void onClick(android.view.View):0 -> onClick
+    7:7:void com.rcheats.loader.utils.RShared.setInt(java.lang.String,int):0:0 -> onClick
+    7:7:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56(android.widget.RadioButton[],android.view.View):0 -> onClick
+    7:7:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56$MainLoader(android.widget.RadioButton[],android.view.View):0 -> onClick
+    7:7:void onClick(android.view.View):0 -> onClick
+    8:8:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56(android.widget.RadioButton[],android.view.View):0:0 -> onClick
+    8:8:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56$MainLoader(android.widget.RadioButton[],android.view.View):0 -> onClick
+    8:8:void onClick(android.view.View):0 -> onClick
+    9:9:void com.rcheats.loader.utils.RShared.setInt(java.lang.String,int):0:0 -> onClick
+    9:9:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56(android.widget.RadioButton[],android.view.View):0 -> onClick
+    9:9:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56$MainLoader(android.widget.RadioButton[],android.view.View):0 -> onClick
+    9:9:void onClick(android.view.View):0 -> onClick
+    10:10:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56(android.widget.RadioButton[],android.view.View):0:0 -> onClick
+    10:10:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56$MainLoader(android.widget.RadioButton[],android.view.View):0 -> onClick
+    10:10:void onClick(android.view.View):0 -> onClick
+    11:11:void com.rcheats.loader.utils.RShared.setInt(java.lang.String,int):0:0 -> onClick
+    11:11:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56(android.widget.RadioButton[],android.view.View):0 -> onClick
+    11:11:void com.rcheats.loader.MainLoader.lambda$frameRateRadioButton$56$MainLoader(android.widget.RadioButton[],android.view.View):0 -> onClick
+    11:11:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$7$Vji3KoMrfnom5_Oup8cCIGFLgJ0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tUKvtlUkBgQRfeFYQOrhYShIRIlNIe:
+    com.rcheats.loader.-$$Lambda$MainLoader$7$Vji3KoMrfnom5_Oup8cCIGFLgJ0 INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:android.widget.ImageView com.rcheats.loader.MainLoader.access$900():0:0 -> run
+    1:1:void com.rcheats.loader.MainLoader$7.lambda$onTouch$0():0 -> run
+    1:1:void run():0 -> run
+    2:2:void com.rcheats.loader.MainLoader$7.lambda$onTouch$0():0:0 -> run
+    2:2:void run():0 -> run
+com.rcheats.loader.-$$Lambda$MainLoader$7$nt7b9kpxje-eOwejm0yGZCbbb0g -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ewYIwYypGrSKRjjiEcxSgktyzgGgIz:
+    com.rcheats.loader.-$$Lambda$MainLoader$7$nt7b9kpxje-eOwejm0yGZCbbb0g INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:android.widget.ImageView com.rcheats.loader.MainLoader.access$900():0:0 -> run
+    1:1:void com.rcheats.loader.MainLoader$7.lambda$onTouch$1():0 -> run
+    1:1:void run():0 -> run
+    2:2:void com.rcheats.loader.MainLoader$7.lambda$onTouch$1():0:0 -> run
+    2:2:void run():0 -> run
+com.rcheats.loader.-$$Lambda$MainLoader$8gao_AEE5Vfa3kLBrVBAiKyThKs -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.XijjWWEbHrPVrQUtXbkNbYPBGBSoWt:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$15(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$15$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$908lFHrd-yd99amPK9ba3SPJNtE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.PDGcYTYTIhdbMYDxotjwLPOTdssCyV:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$21(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$21$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$AZ3-_qx4qPJ1gt99O-tbqt1JQmg -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.AcvjCvhFscICNahxJxjmNrYvedLsKr:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$2$MainLoader():0:0 -> run
+    1:1:void run():0 -> run
+    2:2:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$2():0:0 -> run
+    2:2:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$2$MainLoader():0 -> run
+    2:2:void run():0 -> run
+    3:3:java.lang.String com.rcheats.loader.utils.RShared.getString(java.lang.String):0:0 -> run
+    3:3:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$2():0 -> run
+    3:3:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$2$MainLoader():0 -> run
+    3:3:void run():0 -> run
+    4:4:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$2():0:0 -> run
+    4:4:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$2$MainLoader():0 -> run
+    4:4:void run():0 -> run
+com.rcheats.loader.-$$Lambda$MainLoader$ELq3eqM6Sq5BhT8coZxQiorZwzU -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.jtgaehgiWHbNvzzOBkCclQvjnNomXq:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$13(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$13$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$FSLUnX2cK8l7G-Iu9-ik-g0qwM0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.eLnPtUrPrfmHHPTdUFLrIlsPSzjbJd:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$26(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$26$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$GgR5ijSlgSqzqFSKE37N3XGWErA -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.bQcCDiBAgFGbTQuCPWNqAZufbLQYjw:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$18(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$18$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$GujjWQbm0IzmA6D-uluRJnUpFTc -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.wdlNRoHJKKNSIWlxToKmIytOUYEsXK:
+    com.rcheats.loader.-$$Lambda$MainLoader$GujjWQbm0IzmA6D-uluRJnUpFTc INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$19(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    2:2:void com.rcheats.loader.utils.RShared.setBoolean(java.lang.String,boolean):0:0 -> onCheckedChanged
+    2:2:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$19(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    2:2:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    3:3:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$19(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    3:3:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$GxsrImfUswj2H1MkQe4ouCYlm0k -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.sMtghEyFEiUNNRLqJoOognLOxVOyqm:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$32(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$32$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$HSFHUBEdDC8AYvcVYm9aHdHTdQY -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.bRYUabiJkeXEKDbMLSTbtWcGHVnPbd:
+    com.rcheats.loader.-$$Lambda$MainLoader$HSFHUBEdDC8AYvcVYm9aHdHTdQY INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$48(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$IFGDMk39v32S_xOoXuEfzGnizWU -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.AxkaKfHqODGDWsNswQbqRKNuvZUUra:
+    android.widget.ScrollView f$2 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    android.widget.ScrollView f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    android.widget.ScrollView f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$42(android.widget.ScrollView,android.widget.ScrollView,android.widget.ScrollView,android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$ILCxDu3O4L5gzVE1C47XKjL82aw -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.qKTkszrifLWgMAQGXgTXYNxqTQFlxj:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$17(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$17$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$JhOQFs6X5Bby0N94k9ftvy269BM -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.wEPamXkmUSaqcAEUVtwzWbvfsKdlGB:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$9(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$9$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$KdIG2FSxF_Qh7zakr_jCOdMOZkQ -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dZMXZnkNEdvmNUJXFKAekOJIxrWbVy:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$30(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$30$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$Ktn9luCnS-UPS2L89Cd-LVznK8s -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.uEfkIMTtmpcUmQhYATEkrbuCRlTAhX:
+    com.rcheats.loader.-$$Lambda$MainLoader$Ktn9luCnS-UPS2L89Cd-LVznK8s INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$51(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$N8ipRtNAaoNEOaw1ZRKMbWpLOn8 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.LYjgnWFdpwRHFpDybctTYjdqaouOrE:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1$MainLoader():0:0 -> run
+    1:1:void run():0 -> run
+    2:2:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1():0:0 -> run
+    2:2:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1$MainLoader():0 -> run
+    2:2:void run():0 -> run
+    3:3:int com.rcheats.loader.utils.RShared.getInt(java.lang.String):0:0 -> run
+    3:3:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1():0 -> run
+    3:3:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1$MainLoader():0 -> run
+    3:3:void run():0 -> run
+    4:4:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1():0:0 -> run
+    4:4:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1$MainLoader():0 -> run
+    4:4:void run():0 -> run
+    5:5:int com.rcheats.loader.utils.Devices.getWidth(android.content.Context):0:0 -> run
+    5:5:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1():0 -> run
+    5:5:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1$MainLoader():0 -> run
+    5:5:void run():0 -> run
+    6:6:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1():0:0 -> run
+    6:6:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1$MainLoader():0 -> run
+    6:6:void run():0 -> run
+    7:7:int com.rcheats.loader.utils.Devices.getHeight(android.content.Context):0:0 -> run
+    7:7:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1():0 -> run
+    7:7:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1$MainLoader():0 -> run
+    7:7:void run():0 -> run
+    8:8:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1():0:0 -> run
+    8:8:void com.rcheats.loader.MainLoader.lambda$CreateOverlay$1$MainLoader():0 -> run
+    8:8:void run():0 -> run
+com.rcheats.loader.-$$Lambda$MainLoader$Nk1RxnYNDghcUsKkcmMxiXpgVj4 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.awyBGICaRreDYNnWyJBdNSnVayugTZ:
+    android.widget.ScrollView f$2 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    android.widget.ScrollView f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    android.widget.ScrollView f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$40(android.widget.ScrollView,android.widget.ScrollView,android.widget.ScrollView,android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$NpzU2T39L_5prUiR6QIgdavbzeQ -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.pHnrICVYWPQGXkMIgEGWUDaanOpJZf:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$35(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$35$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$OXCItkDocb_Zkts0X0aGmqdyZt4 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.YxjozETVihaNtstOrcuvyjnGvukybQ:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$24(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$24$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$OoSX8ckGJ1MrH0FjGxCwXjljkCw -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.xmBCtZbqKnApxbKQPftxlXEeEmyCIp:
+    com.rcheats.loader.-$$Lambda$MainLoader$OoSX8ckGJ1MrH0FjGxCwXjljkCw INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$49(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$OuM-GdFlTEeoeHWYz000P25sHsc -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.eTNidKxtPBIBUXMkrkftTFLdJZZfUw:
+    android.widget.ScrollView f$2 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    android.widget.ScrollView f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    android.widget.ScrollView f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$38(android.widget.ScrollView,android.widget.ScrollView,android.widget.ScrollView,android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$TS1zVFDQ7ITgpa-ciNDKR0T9vTU -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.GcvUpwuCtqCkvATGBLvbPqBvJgrteh:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$31(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$31$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$U2lTBWyDff7hgFq2aCvwIFMOn_A -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ZjwfGolVDJyccWcfiYkQxfrAdIkZbb:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$12(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$12$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$U4i_T40IL8zTUiHrl24u_mSyXv4 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.MkNIfvyxcpoAGmrTjESIvIyzancVoa:
+    com.rcheats.loader.-$$Lambda$MainLoader$U4i_T40IL8zTUiHrl24u_mSyXv4 INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$43(android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$V3U5402Cj_eewCKIsLqlR_uGKn4 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.AQoSigNVzKLkRTrDDShZFxrBiPsXfL:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$36(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$36$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$V3fb_7yAPRBVRrJqIZ7yu726-WI -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.RjwqRJdZLdOdVefpHcmtxScQgsYfir:
+    com.rcheats.loader.-$$Lambda$MainLoader$V3fb_7yAPRBVRrJqIZ7yu726-WI INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$45(android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$WC8GWAQGfIFMOE6FNkYx7yRzdm8 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.CCcfpZoanpyRmpPsFgThMKuspwgGeq:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$null$0$MainLoader():0:0 -> run
+    1:1:void run():0 -> run
+    2:2:void com.rcheats.loader.MainLoader.CanvasDrawingOverlay():0:0 -> run
+    2:2:void com.rcheats.loader.MainLoader.lambda$null$0():0 -> run
+    2:2:void com.rcheats.loader.MainLoader.lambda$null$0$MainLoader():0 -> run
+    2:2:void run():0 -> run
+    3:3:android.view.WindowManager com.rcheats.loader.utils.FWindowManager.getWindowManager(android.content.Context):0:0 -> run
+    3:3:void com.rcheats.loader.MainLoader.CanvasDrawingOverlay():0 -> run
+    3:3:void com.rcheats.loader.MainLoader.lambda$null$0():0 -> run
+    3:3:void com.rcheats.loader.MainLoader.lambda$null$0$MainLoader():0 -> run
+    3:3:void run():0 -> run
+    4:4:void com.rcheats.loader.MainLoader.CanvasDrawingOverlay():0:0 -> run
+    4:4:void com.rcheats.loader.MainLoader.lambda$null$0():0 -> run
+    4:4:void com.rcheats.loader.MainLoader.lambda$null$0$MainLoader():0 -> run
+    4:4:void run():0 -> run
+    5:5:android.view.WindowManager$LayoutParams com.rcheats.loader.utils.CanvasDrawingParams.getParams():0:0 -> run
+    5:5:void com.rcheats.loader.MainLoader.CanvasDrawingOverlay():0 -> run
+    5:5:void com.rcheats.loader.MainLoader.lambda$null$0():0 -> run
+    5:5:void com.rcheats.loader.MainLoader.lambda$null$0$MainLoader():0 -> run
+    5:5:void run():0 -> run
+    6:6:int com.rcheats.loader.utils.CanvasDrawingParams.getLayoutType():0:0 -> run
+    6:6:android.view.WindowManager$LayoutParams com.rcheats.loader.utils.CanvasDrawingParams.getParams():0 -> run
+    6:6:void com.rcheats.loader.MainLoader.CanvasDrawingOverlay():0 -> run
+    6:6:void com.rcheats.loader.MainLoader.lambda$null$0():0 -> run
+    6:6:void com.rcheats.loader.MainLoader.lambda$null$0$MainLoader():0 -> run
+    6:6:void run():0 -> run
+    7:7:android.view.WindowManager$LayoutParams com.rcheats.loader.utils.CanvasDrawingParams.getParams():0:0 -> run
+    7:7:void com.rcheats.loader.MainLoader.CanvasDrawingOverlay():0 -> run
+    7:7:void com.rcheats.loader.MainLoader.lambda$null$0():0 -> run
+    7:7:void com.rcheats.loader.MainLoader.lambda$null$0$MainLoader():0 -> run
+    7:7:void run():0 -> run
+    8:8:void com.rcheats.loader.MainLoader.CanvasDrawingOverlay():0:0 -> run
+    8:8:void com.rcheats.loader.MainLoader.lambda$null$0():0 -> run
+    8:8:void com.rcheats.loader.MainLoader.lambda$null$0$MainLoader():0 -> run
+    8:8:void run():0 -> run
+    9:9:void com.rcheats.loader.MainLoader.lambda$null$0():0:0 -> run
+    9:9:void com.rcheats.loader.MainLoader.lambda$null$0$MainLoader():0 -> run
+    9:9:void run():0 -> run
+com.rcheats.loader.-$$Lambda$MainLoader$_-Iprs_oY_YAmWmrX6iSmh4119U -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.TlEVdrvKUXLovJozSfVnAElfVKbyVs:
+    com.rcheats.loader.-$$Lambda$MainLoader$_-Iprs_oY_YAmWmrX6iSmh4119U INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$47(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$a9RdSB7ZycSGfodAydyJtxL8-ks -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.slZNezAcKiOnbxKgaJcyqdDQqiFdSu:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$29(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$29$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$aW3dyIgO9yge4uVsnC_Y6lQmBtc -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.FUvHsxpIwGFjtyQZXsVtgUwkEOtGqQ:
+    com.rcheats.loader.-$$Lambda$MainLoader$aW3dyIgO9yge4uVsnC_Y6lQmBtc INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$null$44():0:0 -> run
+    1:1:void run():0 -> run
+com.rcheats.loader.-$$Lambda$MainLoader$dQRKaVnyFOCXoo0SPSezSTRmlCI -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.iSEpgMkpXGcJXUBEnlohLSLctOPBHy:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$14(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$14$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$eH89kOrJUHMC2Le0Ub6K3OKk8IA -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.GEEOFYQKMbQTSJumtJebBsztHznHjl:
+    com.rcheats.loader.-$$Lambda$MainLoader$eH89kOrJUHMC2Le0Ub6K3OKk8IA INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$50(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$fYtUGWBqfvnr4_SPIJ0kXVNitUg -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.RbXLbibSiyZQUZOGSpoljUGyPZMSBk:
+    android.widget.ScrollView f$2 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    android.widget.ScrollView f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    android.widget.ScrollView f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$41(android.widget.ScrollView,android.widget.ScrollView,android.widget.ScrollView,android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$fg5WmdmS4CA3XZSvsVVIFjrZa7g -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.KwsdNqUpWujdSBkhqLpuYKzJOgnWPb:
+    com.rcheats.loader.-$$Lambda$MainLoader$fg5WmdmS4CA3XZSvsVVIFjrZa7g INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$53(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$hlxNFtxS-sxaLrKkAK7lUIyPof4 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.mVHwMDnqBYiRotxJaUMnJKdgSzhjPG:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$28(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$28$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$hnipZr-V_8iRt6R8v2Bo49k2rRs -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.jLmNgXsrwUgrgCbFpkzfEhvYGjJxar:
+    com.rcheats.loader.-$$Lambda$MainLoader$hnipZr-V_8iRt6R8v2Bo49k2rRs INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$55(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$i3ARiFUVmZII-89EYYD4tZAWWJs -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.WJfCFmLRIyJRjJeAGIzKLJXKyxLLfK:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$34(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$34$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$j_4WFeaHY-nA9tVcwqou1ZK_B5c -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.laRvymyQfeumXBhJHHXazBpythpbjX:
+    com.rcheats.loader.-$$Lambda$MainLoader$j_4WFeaHY-nA9tVcwqou1ZK_B5c INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$3(android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$lWIUqHMGGLY20nBolyg_ysu4aQU -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.QhYfBLzehEtlyYggLTmiAPQbpGHfTx:
+    com.rcheats.loader.-$$Lambda$MainLoader$lWIUqHMGGLY20nBolyg_ysu4aQU INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$46():0:0 -> run
+    1:1:void run():0 -> run
+com.rcheats.loader.-$$Lambda$MainLoader$n4BKlQeilcLSBIA9dPLBePl1BU8 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tVxYRdUokfwzZNUrBFXDcHcHTvlclR:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$11(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$11$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$nYZgEk4WtMKQf7D4FdhcZScgnns -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.hiMDIMhzqXfhzUmzDmGBvaFEqVsyAg:
+    com.rcheats.loader.-$$Lambda$MainLoader$nYZgEk4WtMKQf7D4FdhcZScgnns INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$52(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$ntqhImKMVFyc5HDvOucOpEZye6c -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.MAmeEMLMujPWcLrbBOElPqePPzqLQF:
+    com.rcheats.loader.-$$Lambda$MainLoader$ntqhImKMVFyc5HDvOucOpEZye6c INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$5(android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$ognnxLIQ76G6oU_rdaJqfUa6Tao -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.JaMiPSpuKChxKYVObJWXOlzAyRsRsG:
+    android.widget.RadioButton[] f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$noFogRadioButton$57(android.widget.RadioButton[],android.view.View):0:0 -> onClick
+    1:1:void onClick(android.view.View):0 -> onClick
+com.rcheats.loader.-$$Lambda$MainLoader$p2cgo2M4HvYL-s2joyqrBICoqIs -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.nrYLMyZiNurERkshZpzIOxwcOCTDWr:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$23(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$23$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$q3vsqfeogtx5h0jclgFPJTsRB7U -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.etMjKclldANQqRuWLjnDAuYBNjPXux:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$25(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$25$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$qbgJd54Cu_1ETrG40EhzaFe7jgk -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.lHWzYUawQLtXNCpGgSOfAKChBQodmF:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$16(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$16$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$twPk4ASH36STgvciTvl4Asmv0uU -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.smXOwkccbptdHkzhLhGvpVDEprzKUY:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$7(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$7$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$uI5Y6nHiUlO_QUORvPYe2FvhR4I -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.rIjTokRYxJaPhfZiHtHiyIMfRQzYoJ:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$8(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$8$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$vKMbY_fggQjYmqMf8vHI8f76JBs -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.iEwHDrqBDQhJvloRMcMsbUcHfdJWmC:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$22(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$22$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$vneLmj9wkuMkg8xB613iFLQSR7g -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.kQGgmfWOYJroxNqzglfnOBBmLhKOhy:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$33(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$33$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$wspY_Coc0ZRlIAkjE6SxT-1jVRQ -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.mIujiDdjNdjsfqhCoNbQXcgLubHlNE:
+    com.rcheats.loader.-$$Lambda$MainLoader$wspY_Coc0ZRlIAkjE6SxT-1jVRQ INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$InjectorOverlay$54(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$xR7e2QzstQHYdUXxloMvhSA_PDE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VDmNuzdNHuSEPVNOCIymZQHaKZbqbE:
+    com.rcheats.loader.-$$Lambda$MainLoader$xR7e2QzstQHYdUXxloMvhSA_PDE INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$null$4():0:0 -> run
+    1:1:void run():0 -> run
+com.rcheats.loader.-$$Lambda$MainLoader$yD8g_LTqIwK_kmzRrbjPE8kSYJQ -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.PPjqAiqSXQaTTdbdbFMoAoyhUDJfxH:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$20(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$20$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.-$$Lambda$MainLoader$z1C5d6bPh8ZCygTweSgJ0ryk1hY -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.yTcKHXuhRMGdoRUjCTBpZEtVzQvoCC:
+    com.rcheats.loader.MainLoader f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$10(android.widget.CompoundButton,boolean):0:0 -> onCheckedChanged
+    1:1:void com.rcheats.loader.MainLoader.lambda$ESPOverlay$10$MainLoader(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+    1:1:void onCheckedChanged(android.widget.CompoundButton,boolean):0 -> onCheckedChanged
+com.rcheats.loader.MainLoader -> com.rcheats.loader.MainLoader:
+    android.widget.FrameLayout menuView -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    android.app.Activity activity -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    android.view.View$OnTouchListener onTouchListenerImage -> dtNrvlNDjWTiaDsElifnVGZxXoFHlO
+    android.view.GestureDetector gestureDetector -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    android.content.Context context -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    android.view.WindowManager windowManager -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    android.view.View$OnTouchListener onTouchListenerLayout -> tUKvtlUkBgQRfeFYQOrhYShIRIlNIe
+    com.rcheats.loader.utils.RShared rShared -> ewYIwYypGrSKRjjiEcxSgktyzgGgIz
+    android.widget.LinearLayout controlLayout -> PDGcYTYTIhdbMYDxotjwLPOTdssCyV
+    android.widget.ImageView iconImage -> eLnPtUrPrfmHHPTdUFLrIlsPSzjbJd
+    com.rcheats.loader.view.CanvasDrawingView canvasDrawingView -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    android.widget.LinearLayout menuLayout -> AcvjCvhFscICNahxJxjmNrYvedLsKr
+    android.widget.RelativeLayout header -> jtgaehgiWHbNvzzOBkCclQvjnNomXq
+    android.view.WindowManager$LayoutParams params -> wdlNRoHJKKNSIWlxToKmIytOUYEsXK
+    android.view.WindowManager$LayoutParams canvasDrawingParams -> sMtghEyFEiUNNRLqJoOognLOxVOyqm
+    android.widget.ImageView iconClose -> bQcCDiBAgFGbTQuCPWNqAZufbLQYjw
+    1:1:boolean com.rcheats.loader.utils.RShared.getBoolean(java.lang.String):0:0 -> AcvjCvhFscICNahxJxjmNrYvedLsKr
+    1:1:boolean getValueBoolean(java.lang.String):0 -> AcvjCvhFscICNahxJxjmNrYvedLsKr
+    1:1:boolean com.rcheats.loader.utils.AuthUtils.checkAuth(android.app.Activity):0:0 -> Init
+    1:1:void Init(android.app.Activity,android.content.Context,android.app.Service,byte[]):0 -> Init
+    2:2:void Init(android.app.Activity,android.content.Context,android.app.Service,byte[]):0:0 -> Init
+    3:3:com.topjohnwu.superuser.Shell$Job com.topjohnwu.superuser.internal.MainShell.newJob(boolean,java.lang.String[]):0:0 -> Init
+    3:3:com.topjohnwu.superuser.Shell$Job com.topjohnwu.superuser.Shell.su(java.lang.String[]):0 -> Init
+    3:3:void Init(android.app.Activity,android.content.Context,android.app.Service,byte[]):0 -> Init
+    4:4:com.topjohnwu.superuser.Shell$Job com.topjohnwu.superuser.internal.JobImpl.add(java.lang.String[]):0:0 -> Init
+    4:4:com.topjohnwu.superuser.Shell$Job com.topjohnwu.superuser.internal.MainShell.newJob(boolean,java.lang.String[]):0 -> Init
+    4:4:com.topjohnwu.superuser.Shell$Job com.topjohnwu.superuser.Shell.su(java.lang.String[]):0 -> Init
+    4:4:void Init(android.app.Activity,android.content.Context,android.app.Service,byte[]):0 -> Init
+    5:5:void Init(android.app.Activity,android.content.Context,android.app.Service,byte[]):0:0 -> Init
+    1:1:int com.rcheats.loader.utils.RShared.getInt(java.lang.String):0:0 -> PDGcYTYTIhdbMYDxotjwLPOTdssCyV
+    1:1:int getCheatMode():0 -> PDGcYTYTIhdbMYDxotjwLPOTdssCyV
+    2:2:int getCheatMode():0:0 -> PDGcYTYTIhdbMYDxotjwLPOTdssCyV
+    android.widget.SeekBar addSeekbar(android.widget.LinearLayout,int,int,android.widget.SeekBar$OnSeekBarChangeListener) -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    void ESPOverlay() -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:int com.rcheats.loader.utils.RShared.getInt(java.lang.String):0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    1:1:void frameRateRadioButton(android.widget.LinearLayout,java.lang.String[],int):0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    2:2:void frameRateRadioButton(android.widget.LinearLayout,java.lang.String[],int):0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    3:3:int com.rcheats.loader.utils.RShared.getInt(java.lang.String):0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    3:3:void frameRateRadioButton(android.widget.LinearLayout,java.lang.String[],int):0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    4:4:void frameRateRadioButton(android.widget.LinearLayout,java.lang.String[],int):0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    5:5:int com.rcheats.loader.utils.RShared.getInt(java.lang.String):0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    5:5:void frameRateRadioButton(android.widget.LinearLayout,java.lang.String[],int):0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    6:6:void frameRateRadioButton(android.widget.LinearLayout,java.lang.String[],int):0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    7:7:int com.rcheats.loader.utils.RShared.getInt(java.lang.String):0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    7:7:void frameRateRadioButton(android.widget.LinearLayout,java.lang.String[],int):0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    8:8:void frameRateRadioButton(android.widget.LinearLayout,java.lang.String[],int):0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    9:9:int com.rcheats.loader.utils.RShared.getInt(java.lang.String):0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    9:9:void frameRateRadioButton(android.widget.LinearLayout,java.lang.String[],int):0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    10:10:void frameRateRadioButton(android.widget.LinearLayout,java.lang.String[],int):0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    1:1:void com.rcheats.loader.utils.RShared.setBoolean(java.lang.String,boolean):0:0 -> bQcCDiBAgFGbTQuCPWNqAZufbLQYjw
+    1:1:void setValueBooelan(java.lang.String,boolean):0 -> bQcCDiBAgFGbTQuCPWNqAZufbLQYjw
+    void ShowOverlay() -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    android.widget.Switch addSwitch(android.widget.LinearLayout,int,java.lang.String,android.widget.CompoundButton$OnCheckedChangeListener) -> dtNrvlNDjWTiaDsElifnVGZxXoFHlO
+    void noFogRadioButton(android.widget.LinearLayout,java.lang.String[],int) -> eLnPtUrPrfmHHPTdUFLrIlsPSzjbJd
+    1:1:void CreateOverlay():0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    1:1:void access$200(com.rcheats.loader.MainLoader):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    2:2:void InjectorOverlay():0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    2:2:void CreateOverlay():0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    2:2:void access$200(com.rcheats.loader.MainLoader):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    3:3:java.lang.String com.rcheats.loader.utils.RShared.getString(java.lang.String):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    3:3:void InjectorOverlay():0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    3:3:void CreateOverlay():0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    3:3:void access$200(com.rcheats.loader.MainLoader):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    4:4:void InjectorOverlay():0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    4:4:void CreateOverlay():0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    4:4:void access$200(com.rcheats.loader.MainLoader):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    5:5:void com.rcheats.loader.utils.HackUtils.setPathInjectorFile(java.lang.String):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    5:5:void InjectorOverlay():0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    5:5:void CreateOverlay():0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    5:5:void access$200(com.rcheats.loader.MainLoader):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    6:6:void InjectorOverlay():0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    6:6:void CreateOverlay():0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    6:6:void access$200(com.rcheats.loader.MainLoader):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    7:7:void ShowOverlay():0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    7:7:void InjectorOverlay():0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    7:7:void CreateOverlay():0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    7:7:void access$200(com.rcheats.loader.MainLoader):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    8:8:void InjectorOverlay():0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    8:8:void CreateOverlay():0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    8:8:void access$200(com.rcheats.loader.MainLoader):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    android.widget.TextView addTextView(android.widget.LinearLayout,int,java.lang.String,android.view.View$OnClickListener) -> ewYIwYypGrSKRjjiEcxSgktyzgGgIz
+    1:1:int com.rcheats.loader.utils.RShared.getInt(java.lang.String):0:0 -> jtgaehgiWHbNvzzOBkCclQvjnNomXq
+    1:1:int getValueInt(java.lang.String):0 -> jtgaehgiWHbNvzzOBkCclQvjnNomXq
+    android.widget.CheckBox addCheckbox(android.widget.LinearLayout,java.lang.String,int,android.widget.CompoundButton$OnCheckedChangeListener) -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    android.widget.TextView addTextView(android.widget.LinearLayout,int,java.lang.String,int,boolean,int,int,int,int,android.view.View$OnClickListener) -> tUKvtlUkBgQRfeFYQOrhYShIRIlNIe
+com.rcheats.loader.MainLoader$1 -> com.rcheats.loader.MainLoader$VRYMrIQOPhiURjjUPyLWfbgkGSQIMj:
+    android.widget.TextView val$tv_box_stroke_size -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.utils.RShared.setInt(java.lang.String,int):0:0 -> onProgressChanged
+    1:1:void onProgressChanged(android.widget.SeekBar,int,boolean):0 -> onProgressChanged
+    2:2:void onProgressChanged(android.widget.SeekBar,int,boolean):0:0 -> onProgressChanged
+com.rcheats.loader.MainLoader$2 -> com.rcheats.loader.MainLoader$dODgNFAbdoyPmGcGmOEBXmAGPZZoaN:
+    android.widget.TextView val$tv_radar_line_stroke_size -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.utils.RShared.setInt(java.lang.String,int):0:0 -> onProgressChanged
+    1:1:void onProgressChanged(android.widget.SeekBar,int,boolean):0 -> onProgressChanged
+    2:2:void onProgressChanged(android.widget.SeekBar,int,boolean):0:0 -> onProgressChanged
+com.rcheats.loader.MainLoader$3 -> com.rcheats.loader.MainLoader$ePsyOmfznuQVenePWthkeaFjZAWOjx:
+    android.widget.TextView val$tv_skeleton_stroke_size -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.utils.RShared.setInt(java.lang.String,int):0:0 -> onProgressChanged
+    1:1:void onProgressChanged(android.widget.SeekBar,int,boolean):0 -> onProgressChanged
+    2:2:void onProgressChanged(android.widget.SeekBar,int,boolean):0:0 -> onProgressChanged
+com.rcheats.loader.MainLoader$4 -> com.rcheats.loader.MainLoader$nAiDtGlYlaGLtNRklZgBXGLbSLpYVK:
+    android.widget.TextView val$tv_vertical_display_adjustment -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.utils.RShared.setInt(java.lang.String,int):0:0 -> onProgressChanged
+    1:1:void onProgressChanged(android.widget.SeekBar,int,boolean):0 -> onProgressChanged
+    2:2:void onProgressChanged(android.widget.SeekBar,int,boolean):0:0 -> onProgressChanged
+com.rcheats.loader.MainLoader$5 -> com.rcheats.loader.MainLoader$QZFmQyQscknaDvcgWvEcvzpCvVjZgU:
+    android.widget.TextView val$tv_horizontal_display_adjustment -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.rcheats.loader.utils.RShared.setInt(java.lang.String,int):0:0 -> onProgressChanged
+    1:1:void onProgressChanged(android.widget.SeekBar,int,boolean):0 -> onProgressChanged
+    2:2:void onProgressChanged(android.widget.SeekBar,int,boolean):0:0 -> onProgressChanged
+com.rcheats.loader.MainLoader$6 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.CCDWJkTmAMjajWOfMxxtXdknmkrrkl:
+    android.widget.TextView val$tv_seekbar_wideview -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+com.rcheats.loader.MainLoader$7 -> com.rcheats.loader.MainLoader$dtNrvlNDjWTiaDsElifnVGZxXoFHlO:
+    int initialX -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    float initialTouchY -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    int initialY -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    com.rcheats.loader.MainLoader this$0 -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    float initialTouchX -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    1:1:android.view.GestureDetector com.rcheats.loader.MainLoader.access$300():0:0 -> onTouch
+    1:1:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    2:2:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    3:3:android.widget.LinearLayout com.rcheats.loader.MainLoader.access$400():0:0 -> onTouch
+    3:3:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    4:4:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    5:5:android.widget.LinearLayout com.rcheats.loader.MainLoader.access$500():0:0 -> onTouch
+    5:5:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    6:6:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    7:7:android.view.WindowManager$LayoutParams com.rcheats.loader.MainLoader.access$600():0:0 -> onTouch
+    7:7:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    8:8:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    9:9:android.view.WindowManager$LayoutParams com.rcheats.loader.MainLoader.access$600():0:0 -> onTouch
+    9:9:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    10:10:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    11:11:android.view.WindowManager com.rcheats.loader.MainLoader.access$800(com.rcheats.loader.MainLoader):0:0 -> onTouch
+    11:11:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    12:12:android.widget.FrameLayout com.rcheats.loader.MainLoader.access$700(com.rcheats.loader.MainLoader):0:0 -> onTouch
+    12:12:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    13:13:android.view.WindowManager$LayoutParams com.rcheats.loader.MainLoader.access$600():0:0 -> onTouch
+    13:13:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    14:14:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    15:15:android.widget.ImageView com.rcheats.loader.MainLoader.access$900():0:0 -> onTouch
+    15:15:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    16:16:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    17:17:android.view.WindowManager$LayoutParams com.rcheats.loader.MainLoader.access$600():0:0 -> onTouch
+    17:17:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    18:18:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+com.rcheats.loader.MainLoader$8 -> com.rcheats.loader.MainLoader$tUKvtlUkBgQRfeFYQOrhYShIRIlNIe:
+    int initialX -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    float initialTouchY -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    int initialY -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    com.rcheats.loader.MainLoader this$0 -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    float initialTouchX -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    1:1:android.view.GestureDetector com.rcheats.loader.MainLoader.access$300():0:0 -> onTouch
+    1:1:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    2:2:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    3:3:android.widget.LinearLayout com.rcheats.loader.MainLoader.access$400():0:0 -> onTouch
+    3:3:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    4:4:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    5:5:android.widget.LinearLayout com.rcheats.loader.MainLoader.access$500():0:0 -> onTouch
+    5:5:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    6:6:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    7:7:android.view.WindowManager$LayoutParams com.rcheats.loader.MainLoader.access$600():0:0 -> onTouch
+    7:7:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    8:8:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    9:9:android.view.WindowManager$LayoutParams com.rcheats.loader.MainLoader.access$600():0:0 -> onTouch
+    9:9:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    10:10:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    11:11:android.view.WindowManager com.rcheats.loader.MainLoader.access$800(com.rcheats.loader.MainLoader):0:0 -> onTouch
+    11:11:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    12:12:android.widget.FrameLayout com.rcheats.loader.MainLoader.access$700(com.rcheats.loader.MainLoader):0:0 -> onTouch
+    12:12:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    13:13:android.view.WindowManager$LayoutParams com.rcheats.loader.MainLoader.access$600():0:0 -> onTouch
+    13:13:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    14:14:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+    15:15:android.view.WindowManager$LayoutParams com.rcheats.loader.MainLoader.access$600():0:0 -> onTouch
+    15:15:boolean onTouch(android.view.View,android.view.MotionEvent):0 -> onTouch
+    16:16:boolean onTouch(android.view.View,android.view.MotionEvent):0:0 -> onTouch
+com.rcheats.loader.MainLoader$DRMAuth -> com.rcheats.loader.MainLoader$ewYIwYypGrSKRjjiEcxSgktyzgGgIz:
+    byte[] crt -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    android.app.ProgressDialog progressDialog -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    com.rcheats.loader.MainLoader this$0 -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    byte[] puk -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:android.content.Context com.rcheats.loader.MainLoader.access$000(com.rcheats.loader.MainLoader):0:0 -> <init>
+    1:1:void <init>(com.rcheats.loader.MainLoader):0 -> <init>
+    2:2:void <init>(com.rcheats.loader.MainLoader):0:0 -> <init>
+    1:1:java.lang.String doInBackground(java.lang.String[]):0:0 -> doInBackground
+    1:1:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    2:2:android.app.Activity com.rcheats.loader.MainLoader.access$100(com.rcheats.loader.MainLoader):0:0 -> doInBackground
+    2:2:java.lang.String doInBackground(java.lang.String[]):0 -> doInBackground
+    2:2:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    3:3:boolean com.rcheats.loader.utils.Network.isInternetAvailable(android.content.Context):0:0 -> doInBackground
+    3:3:java.lang.String doInBackground(java.lang.String[]):0 -> doInBackground
+    3:3:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    4:4:java.lang.String doInBackground(java.lang.String[]):0:0 -> doInBackground
+    4:4:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    5:5:android.content.Context com.rcheats.loader.MainLoader.access$000(com.rcheats.loader.MainLoader):0:0 -> doInBackground
+    5:5:java.lang.String doInBackground(java.lang.String[]):0 -> doInBackground
+    5:5:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    6:6:java.lang.String doInBackground(java.lang.String[]):0:0 -> doInBackground
+    6:6:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    7:7:java.lang.String com.rcheats.loader.utils.RSA.encrypt(java.lang.String,byte[]):0:0 -> doInBackground
+    7:7:java.lang.String doInBackground(java.lang.String[]):0 -> doInBackground
+    7:7:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    8:8:java.security.PublicKey com.rcheats.loader.utils.RSA.getPublicKey(byte[]):0:0 -> doInBackground
+    8:8:java.lang.String com.rcheats.loader.utils.RSA.encrypt(java.lang.String,byte[]):0 -> doInBackground
+    8:8:java.lang.String doInBackground(java.lang.String[]):0 -> doInBackground
+    8:8:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    9:9:java.lang.String com.rcheats.loader.utils.RSA.encrypt(java.lang.String,byte[]):0:0 -> doInBackground
+    9:9:java.lang.String doInBackground(java.lang.String[]):0 -> doInBackground
+    9:9:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    10:10:java.lang.String com.rcheats.loader.utils.RSA.toBase64(byte[]):0:0 -> doInBackground
+    10:10:java.lang.String com.rcheats.loader.utils.RSA.encrypt(java.lang.String,byte[]):0 -> doInBackground
+    10:10:java.lang.String doInBackground(java.lang.String[]):0 -> doInBackground
+    10:10:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    11:11:java.lang.String doInBackground(java.lang.String[]):0:0 -> doInBackground
+    11:11:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    12:12:java.lang.String com.rcheats.loader.utils.RSA.toBase64(java.lang.String):0:0 -> doInBackground
+    12:12:java.lang.String doInBackground(java.lang.String[]):0 -> doInBackground
+    12:12:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    13:13:java.lang.String doInBackground(java.lang.String[]):0:0 -> doInBackground
+    13:13:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    14:14:java.lang.String com.rcheats.loader.utils.RSA.readStream(java.io.InputStream):0:0 -> doInBackground
+    14:14:java.lang.String doInBackground(java.lang.String[]):0 -> doInBackground
+    14:14:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    15:15:java.lang.String com.rcheats.loader.utils.RSA.fromBase64String(java.lang.String):0:0 -> doInBackground
+    15:15:java.lang.String doInBackground(java.lang.String[]):0 -> doInBackground
+    15:15:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    16:16:java.lang.String doInBackground(java.lang.String[]):0:0 -> doInBackground
+    16:16:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    1:1:void hideProgress():0:0 -> onPostExecute
+    1:1:void onPostExecute(java.lang.String):0 -> onPostExecute
+    1:1:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    2:2:void onPostExecute(java.lang.String):0:0 -> onPostExecute
+    2:2:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    3:3:android.content.Context com.rcheats.loader.MainLoader.access$000(com.rcheats.loader.MainLoader):0:0 -> onPostExecute
+    3:3:void onPostExecute(java.lang.String):0 -> onPostExecute
+    3:3:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    4:4:void onPostExecute(java.lang.String):0:0 -> onPostExecute
+    4:4:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    5:5:java.lang.String com.rcheats.loader.utils.RSA.profileDecrypt(java.lang.String,java.lang.String):0:0 -> onPostExecute
+    5:5:void onPostExecute(java.lang.String):0 -> onPostExecute
+    5:5:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    6:6:java.lang.String com.rcheats.loader.utils.RSA.fromBase64String(java.lang.String):0:0 -> onPostExecute
+    6:6:java.lang.String com.rcheats.loader.utils.RSA.profileDecrypt(java.lang.String,java.lang.String):0 -> onPostExecute
+    6:6:void onPostExecute(java.lang.String):0 -> onPostExecute
+    6:6:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    7:7:java.lang.String com.rcheats.loader.utils.RSA.profileDecrypt(java.lang.String,java.lang.String):0:0 -> onPostExecute
+    7:7:void onPostExecute(java.lang.String):0 -> onPostExecute
+    7:7:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    8:8:void onPostExecute(java.lang.String):0:0 -> onPostExecute
+    8:8:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    9:9:boolean com.rcheats.loader.utils.RSA.verify(java.lang.String,java.lang.String,byte[]):0:0 -> onPostExecute
+    9:9:void onPostExecute(java.lang.String):0 -> onPostExecute
+    9:9:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    10:10:java.security.PublicKey com.rcheats.loader.utils.RSA.getPublicKey(byte[]):0:0 -> onPostExecute
+    10:10:boolean com.rcheats.loader.utils.RSA.verify(java.lang.String,java.lang.String,byte[]):0 -> onPostExecute
+    10:10:void onPostExecute(java.lang.String):0 -> onPostExecute
+    10:10:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    11:11:boolean com.rcheats.loader.utils.RSA.verify(java.lang.String,java.lang.String,byte[]):0:0 -> onPostExecute
+    11:11:void onPostExecute(java.lang.String):0 -> onPostExecute
+    11:11:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    12:12:byte[] com.rcheats.loader.utils.RSA.fromBase64(java.lang.String):0:0 -> onPostExecute
+    12:12:boolean com.rcheats.loader.utils.RSA.verify(java.lang.String,java.lang.String,byte[]):0 -> onPostExecute
+    12:12:void onPostExecute(java.lang.String):0 -> onPostExecute
+    12:12:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    13:13:boolean com.rcheats.loader.utils.RSA.verify(java.lang.String,java.lang.String,byte[]):0:0 -> onPostExecute
+    13:13:void onPostExecute(java.lang.String):0 -> onPostExecute
+    13:13:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    14:14:void onPostExecute(java.lang.String):0:0 -> onPostExecute
+    14:14:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    15:15:android.content.Context com.rcheats.loader.MainLoader.access$000(com.rcheats.loader.MainLoader):0:0 -> onPostExecute
+    15:15:void onPostExecute(java.lang.String):0 -> onPostExecute
+    15:15:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    16:16:void onPostExecute(java.lang.String):0:0 -> onPostExecute
+    16:16:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    17:17:android.content.Context com.rcheats.loader.MainLoader.access$000(com.rcheats.loader.MainLoader):0:0 -> onPostExecute
+    17:17:void onPostExecute(java.lang.String):0 -> onPostExecute
+    17:17:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    18:18:void onPostExecute(java.lang.String):0:0 -> onPostExecute
+    18:18:void onPostExecute(java.lang.Object):0 -> onPostExecute
+    1:1:void showProgress(java.lang.String):0:0 -> onPreExecute
+    1:1:void onPreExecute():0 -> onPreExecute
+com.rcheats.loader.utils.-$$Lambda$AuthUtils$EK0zd65dYsjCTIBZpzNSVxZvyCA -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tzRcIoSSsbsJBDVwJBSTGzEzObgMrY.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj:
+    com.rcheats.loader.utils.RShared f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    boolean f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.rcheats.loader.utils.RShared.setBoolean(java.lang.String,boolean):0:0 -> run
+    1:1:void com.rcheats.loader.utils.AuthUtils.lambda$setLogin$0(com.rcheats.loader.utils.RShared,boolean):0 -> run
+    1:1:void run():0 -> run
+com.rcheats.loader.utils.-$$Lambda$HackUtils$PJKejJQdIoiKZJzkxGcwOxSH9vY -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tzRcIoSSsbsJBDVwJBSTGzEzObgMrY.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN:
+    boolean f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    int f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.rcheats.loader.utils.HackUtils.lambda$syncFeature$0(boolean,int):0:0 -> run
+    1:1:void run():0 -> run
+com.rcheats.loader.utils.-$$Lambda$HackUtils$qrXHZc4y1yfbpUHk1Nm3VM3xOg4 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tzRcIoSSsbsJBDVwJBSTGzEzObgMrY.ePsyOmfznuQVenePWthkeaFjZAWOjx:
+    int f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    int f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.rcheats.loader.utils.HackUtils.lambda$syncFeature$1(int,int):0:0 -> run
+    1:1:void run():0 -> run
+com.rcheats.loader.utils.AuthUtils -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tzRcIoSSsbsJBDVwJBSTGzEzObgMrY.nAiDtGlYlaGLtNRklZgBXGLbSLpYVK:
+    1:1:void com.rcheats.loader.utils.RShared.remove(java.lang.String):0:0 -> AcvjCvhFscICNahxJxjmNrYvedLsKr
+    1:1:void setLogin(android.app.Activity,boolean):0 -> AcvjCvhFscICNahxJxjmNrYvedLsKr
+    2:2:void setLogin(android.app.Activity,boolean):0:0 -> AcvjCvhFscICNahxJxjmNrYvedLsKr
+    boolean com.topjohnwu.superuser.ShellUtils.onMainThread() -> PDGcYTYTIhdbMYDxotjwLPOTdssCyV
+    void com.topjohnwu.superuser.ShellUtils.cleanInputStream(java.io.InputStream) -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    1:1:java.lang.String com.rcheats.loader.utils.RSA.bytesToHex(byte[]):0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:java.lang.String com.rcheats.loader.utils.RSA.SHA256(java.lang.String):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    2:2:java.lang.String com.rcheats.loader.utils.RSA.SHA256(java.lang.String):0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:java.lang.String com.rcheats.loader.utils.Devices.getDeviceName():0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    1:1:java.lang.String com.rcheats.loader.utils.Devices.getUniqueId(android.content.Context):0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    2:2:java.lang.String com.rcheats.loader.utils.Devices.getUniqueId(android.content.Context):0:0 -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    boolean checkExpired(android.app.Activity) -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    byte[] com.rcheats.loader.utils.TeaBase64.decode(java.lang.String) -> dtNrvlNDjWTiaDsElifnVGZxXoFHlO
+    1:1:void com.rcheats.loader.utils.RShared.<init>(android.content.Context):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    1:1:boolean checkKey(android.app.Activity):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    2:2:java.lang.String com.rcheats.loader.utils.RShared.getString(java.lang.String):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    2:2:boolean checkKey(android.app.Activity):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    3:3:boolean checkKey(android.app.Activity):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    4:4:java.lang.String com.rcheats.loader.utils.RShared.getString(java.lang.String):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    4:4:boolean checkKey(android.app.Activity):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    5:5:boolean checkKey(android.app.Activity):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    android.view.WindowManager$LayoutParams com.rcheats.loader.utils.Devices.getParams() -> ewYIwYypGrSKRjjiEcxSgktyzgGgIz
+    boolean checkUUID(android.app.Activity) -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    int com.rcheats.loader.utils.Devices.getLayoutType() -> tUKvtlUkBgQRfeFYQOrhYShIRIlNIe
+com.rcheats.loader.utils.HackUtils -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tzRcIoSSsbsJBDVwJBSTGzEzObgMrY.QZFmQyQscknaDvcgWvEcvzpCvVjZgU:
+    java.lang.String PATH_INJECTOR_FILE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    void setPathInjectorFile(java.lang.String) -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    void syncFeature(int,int) -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    void syncFeature(int,boolean) -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+com.rcheats.loader.utils.RShared -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tzRcIoSSsbsJBDVwJBSTGzEzObgMrY.dtNrvlNDjWTiaDsElifnVGZxXoFHlO:
+    com.rcheats.loader.utils.SecurePreferences securePreferences -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    android.content.SharedPreferences shared -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    boolean getBoolean(java.lang.String) -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    int getInt(java.lang.String) -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    java.lang.String getString(java.lang.String) -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+com.rcheats.loader.utils.SecurePreferences -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tzRcIoSSsbsJBDVwJBSTGzEzObgMrY.tUKvtlUkBgQRfeFYQOrhYShIRIlNIe:
+    android.content.SharedPreferences sharedPreferences -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    java.lang.String decrypt(java.lang.String) -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    java.lang.String encrypt(java.lang.String) -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+com.rcheats.loader.utils.SecurePreferences$1 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tzRcIoSSsbsJBDVwJBSTGzEzObgMrY.tUKvtlUkBgQRfeFYQOrhYShIRIlNIe$VRYMrIQOPhiURjjUPyLWfbgkGSQIMj:
+com.rcheats.loader.utils.SecurePreferences$Editor -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tzRcIoSSsbsJBDVwJBSTGzEzObgMrY.tUKvtlUkBgQRfeFYQOrhYShIRIlNIe$dODgNFAbdoyPmGcGmOEBXmAGPZZoaN:
+    android.content.SharedPreferences$Editor mEditor -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void <init>(com.rcheats.loader.utils.SecurePreferences):0:0 -> <init>
+    1:1:void <init>(com.rcheats.loader.utils.SecurePreferences,com.rcheats.loader.utils.SecurePreferences$1):0 -> <init>
+    1:1:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> putBoolean
+    1:1:android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean):0 -> putBoolean
+    2:2:android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean):0:0 -> putBoolean
+    3:3:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> putBoolean
+    3:3:android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean):0 -> putBoolean
+    4:4:android.content.SharedPreferences$Editor putBoolean(java.lang.String,boolean):0:0 -> putBoolean
+    1:1:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> putFloat
+    1:1:android.content.SharedPreferences$Editor putFloat(java.lang.String,float):0 -> putFloat
+    2:2:android.content.SharedPreferences$Editor putFloat(java.lang.String,float):0:0 -> putFloat
+    3:3:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> putFloat
+    3:3:android.content.SharedPreferences$Editor putFloat(java.lang.String,float):0 -> putFloat
+    4:4:android.content.SharedPreferences$Editor putFloat(java.lang.String,float):0:0 -> putFloat
+    1:1:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> putInt
+    1:1:android.content.SharedPreferences$Editor putInt(java.lang.String,int):0 -> putInt
+    2:2:android.content.SharedPreferences$Editor putInt(java.lang.String,int):0:0 -> putInt
+    3:3:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> putInt
+    3:3:android.content.SharedPreferences$Editor putInt(java.lang.String,int):0 -> putInt
+    4:4:android.content.SharedPreferences$Editor putInt(java.lang.String,int):0:0 -> putInt
+    1:1:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> putLong
+    1:1:android.content.SharedPreferences$Editor putLong(java.lang.String,long):0 -> putLong
+    2:2:android.content.SharedPreferences$Editor putLong(java.lang.String,long):0:0 -> putLong
+    3:3:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> putLong
+    3:3:android.content.SharedPreferences$Editor putLong(java.lang.String,long):0 -> putLong
+    4:4:android.content.SharedPreferences$Editor putLong(java.lang.String,long):0:0 -> putLong
+    1:1:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> putString
+    1:1:android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String):0 -> putString
+    2:2:android.content.SharedPreferences$Editor putString(java.lang.String,java.lang.String):0:0 -> putString
+    1:1:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> putStringSet
+    1:1:android.content.SharedPreferences$Editor putStringSet(java.lang.String,java.util.Set):0 -> putStringSet
+    2:2:android.content.SharedPreferences$Editor putStringSet(java.lang.String,java.util.Set):0:0 -> putStringSet
+    3:3:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> putStringSet
+    3:3:android.content.SharedPreferences$Editor putStringSet(java.lang.String,java.util.Set):0 -> putStringSet
+    4:4:android.content.SharedPreferences$Editor putStringSet(java.lang.String,java.util.Set):0:0 -> putStringSet
+    1:1:java.lang.String com.rcheats.loader.utils.SecurePreferences.access$000(java.lang.String):0:0 -> remove
+    1:1:android.content.SharedPreferences$Editor remove(java.lang.String):0 -> remove
+    2:2:android.content.SharedPreferences$Editor remove(java.lang.String):0:0 -> remove
+com.rcheats.loader.utils.SingleTapConfirm -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tzRcIoSSsbsJBDVwJBSTGzEzObgMrY.ewYIwYypGrSKRjjiEcxSgktyzgGgIz:
+com.rcheats.loader.utils.XxTea -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.tzRcIoSSsbsJBDVwJBSTGzEzObgMrY.XijjWWEbHrPVrQUtXbkNbYPBGBSoWt:
+    1:1:byte[] encrypt(java.lang.String,java.lang.String):0:0 -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    1:1:java.lang.String encryptToBase64String(java.lang.String,java.lang.String):0 -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    2:2:java.lang.String com.rcheats.loader.utils.TeaBase64.encode(byte[]):0:0 -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    2:2:java.lang.String encryptToBase64String(java.lang.String,java.lang.String):0 -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    int MX(int,int,int,int,int,int[]) -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:int[] decrypt(int[],int[]):0:0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:byte[] decrypt(byte[],byte[]):0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    2:2:byte[] decrypt(byte[],byte[]):0:0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    byte[] fixKey(byte[]) -> dtNrvlNDjWTiaDsElifnVGZxXoFHlO
+    1:1:byte[] decrypt(byte[],java.lang.String):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    1:1:java.lang.String decryptBase64StringToString(java.lang.String,java.lang.String):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    2:2:java.lang.String decryptBase64StringToString(java.lang.String,java.lang.String):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    int[] toIntArray(byte[],boolean) -> ewYIwYypGrSKRjjiEcxSgktyzgGgIz
+    1:1:int[] encrypt(int[],int[]):0:0 -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    1:1:byte[] encrypt(byte[],byte[]):0 -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    2:2:byte[] encrypt(byte[],byte[]):0:0 -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    byte[] toByteArray(int[],boolean) -> tUKvtlUkBgQRfeFYQOrhYShIRIlNIe
+com.rcheats.loader.view.CanvasDrawingView -> com.rcheats.loader.view.CanvasDrawingView:
+    android.graphics.drawable.GradientDrawable eGradientDrawable -> tUKvtlUkBgQRfeFYQOrhYShIRIlNIe
+    java.lang.Runnable runnable -> PDGcYTYTIhdbMYDxotjwLPOTdssCyV
+    int FPS -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    android.graphics.Paint mRectPaint -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    android.graphics.Paint mTextPaint -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    android.graphics.Paint mStrokePaint -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    android.graphics.Rect eRect -> dtNrvlNDjWTiaDsElifnVGZxXoFHlO
+    android.os.Handler handler -> XijjWWEbHrPVrQUtXbkNbYPBGBSoWt
+    android.graphics.Paint mFilledPaint -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    int[] eColor -> ewYIwYypGrSKRjjiEcxSgktyzgGgIz
+    1:1:void InitializePaints():0:0 -> <init>
+    1:1:void <init>(android.content.Context):0 -> <init>
+    2:2:void <init>(android.content.Context):0:0 -> <init>
+    1:1:java.lang.String com.rcheats.loader.utils.ESPEngine.getVehicleName(java.lang.String):0:0 -> DrawVehicles
+    1:1:void DrawVehicles(android.graphics.Canvas,java.lang.String,int,float,float,float):0 -> DrawVehicles
+    2:2:void DrawVehicles(android.graphics.Canvas,java.lang.String,int,float,float,float):0:0 -> DrawVehicles
+com.rcheats.loader.view.CanvasDrawingView$1 -> com.rcheats.loader.view.CanvasDrawingView$VRYMrIQOPhiURjjUPyLWfbgkGSQIMj:
+    com.rcheats.loader.view.CanvasDrawingView this$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:int com.rcheats.loader.view.CanvasDrawingView.access$000(com.rcheats.loader.view.CanvasDrawingView):0:0 -> run
+    1:1:void run():0 -> run
+    2:2:void run():0:0 -> run
+com.topjohnwu.superuser.NoShellException -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj:
+com.topjohnwu.superuser.Shell -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN:
+    java.util.concurrent.ExecutorService EXECUTOR -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:com.topjohnwu.superuser.internal.ShellImpl com.topjohnwu.superuser.internal.MainShell.get():0:0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:com.topjohnwu.superuser.Shell getShell():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:boolean rootAccess():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    2:2:com.topjohnwu.superuser.internal.BuilderImpl com.topjohnwu.superuser.internal.MainShell.getBuilder():0:0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    2:2:com.topjohnwu.superuser.internal.ShellImpl com.topjohnwu.superuser.internal.MainShell.get():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    2:2:com.topjohnwu.superuser.Shell getShell():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    2:2:boolean rootAccess():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    3:3:com.topjohnwu.superuser.internal.ShellImpl com.topjohnwu.superuser.internal.MainShell.get():0:0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    3:3:com.topjohnwu.superuser.Shell getShell():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    3:3:boolean rootAccess():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    4:4:int com.topjohnwu.superuser.internal.ShellImpl.getStatus():0:0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    4:4:boolean isRoot():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    4:4:boolean rootAccess():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    5:5:com.topjohnwu.superuser.internal.ShellImpl com.topjohnwu.superuser.internal.MainShell.get():0:0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    5:5:com.topjohnwu.superuser.Shell getShell():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    5:5:boolean rootAccess():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:com.topjohnwu.superuser.Shell$Job com.topjohnwu.superuser.internal.MainShell.newJob(boolean,java.lang.String[]):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    1:1:com.topjohnwu.superuser.Shell$Job sh(java.lang.String[]):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    2:2:com.topjohnwu.superuser.Shell$Job com.topjohnwu.superuser.internal.JobImpl.add(java.lang.String[]):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    2:2:com.topjohnwu.superuser.Shell$Job com.topjohnwu.superuser.internal.MainShell.newJob(boolean,java.lang.String[]):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    2:2:com.topjohnwu.superuser.Shell$Job sh(java.lang.String[]):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+com.topjohnwu.superuser.Shell$Builder -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN$VRYMrIQOPhiURjjUPyLWfbgkGSQIMj:
+com.topjohnwu.superuser.Shell$GetShellCallback -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN$dODgNFAbdoyPmGcGmOEBXmAGPZZoaN:
+com.topjohnwu.superuser.Shell$Job -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN$ePsyOmfznuQVenePWthkeaFjZAWOjx:
+    1:1:void submit(com.topjohnwu.superuser.Shell$ResultCallback):0:0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void submit():0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    void submit(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback) -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+com.topjohnwu.superuser.Shell$Result -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN$nAiDtGlYlaGLtNRklZgBXGLbSLpYVK:
+com.topjohnwu.superuser.Shell$ResultCallback -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN$QZFmQyQscknaDvcgWvEcvzpCvVjZgU:
+com.topjohnwu.superuser.Shell$Task -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN$dtNrvlNDjWTiaDsElifnVGZxXoFHlO:
+com.topjohnwu.superuser.internal.-$$Lambda$1PUhfA9MpfWwooV8VyCdgG1fDw0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj:
+    com.topjohnwu.superuser.internal.-$$Lambda$1PUhfA9MpfWwooV8VyCdgG1fDw0 INSTANCE -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.topjohnwu.superuser.internal.UiThreadHandler.run(java.lang.Runnable):0:0 -> execute
+    1:1:void execute(java.lang.Runnable):0 -> execute
+com.topjohnwu.superuser.internal.-$$Lambda$JobImpl$Vy42D9FsT_S7Yzm7gJ9cam_lQIM -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN:
+    com.topjohnwu.superuser.Shell$ResultCallback f$2 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    java.util.concurrent.Executor f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    com.topjohnwu.superuser.internal.JobImpl f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:com.topjohnwu.superuser.internal.ResultImpl com.topjohnwu.superuser.internal.JobImpl.exec0():0:0 -> run
+    1:1:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    1:1:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0$JobImpl(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    1:1:void run():0 -> run
+    2:2:boolean com.topjohnwu.superuser.internal.Utils.isSynchronized(java.util.Collection):0:0 -> run
+    2:2:com.topjohnwu.superuser.internal.ResultImpl com.topjohnwu.superuser.internal.JobImpl.exec0():0 -> run
+    2:2:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    2:2:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0$JobImpl(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    2:2:void run():0 -> run
+    3:3:com.topjohnwu.superuser.internal.NOPList com.topjohnwu.superuser.internal.NOPList.getInstance():0:0 -> run
+    3:3:boolean com.topjohnwu.superuser.internal.Utils.isSynchronized(java.util.Collection):0 -> run
+    3:3:com.topjohnwu.superuser.internal.ResultImpl com.topjohnwu.superuser.internal.JobImpl.exec0():0 -> run
+    3:3:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    3:3:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0$JobImpl(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    3:3:void run():0 -> run
+    4:4:boolean com.topjohnwu.superuser.internal.Utils.isSynchronized(java.util.Collection):0:0 -> run
+    4:4:com.topjohnwu.superuser.internal.ResultImpl com.topjohnwu.superuser.internal.JobImpl.exec0():0 -> run
+    4:4:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    4:4:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0$JobImpl(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    4:4:void run():0 -> run
+    5:5:com.topjohnwu.superuser.internal.ResultImpl com.topjohnwu.superuser.internal.JobImpl.exec0():0:0 -> run
+    5:5:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    5:5:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0$JobImpl(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    5:5:void run():0 -> run
+    6:6:void com.topjohnwu.superuser.internal.ResultImpl.callback(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0:0 -> run
+    6:6:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    6:6:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0$JobImpl(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    6:6:void run():0 -> run
+    7:7:com.topjohnwu.superuser.internal.ResultImpl com.topjohnwu.superuser.internal.JobImpl.exec0():0:0 -> run
+    7:7:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    7:7:void com.topjohnwu.superuser.internal.JobImpl.lambda$submit$0$JobImpl(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    7:7:void run():0 -> run
+com.topjohnwu.superuser.internal.-$$Lambda$MainShell$8inlSh_vRXGe0Jv5ZVlXowIFgYw -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.ePsyOmfznuQVenePWthkeaFjZAWOjx:
+    java.util.concurrent.Executor f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    com.topjohnwu.superuser.Shell$GetShellCallback f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.topjohnwu.superuser.internal.MainShell.lambda$get$2(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$GetShellCallback):0:0 -> run
+    1:1:void run():0 -> run
+    2:2:com.topjohnwu.superuser.internal.BuilderImpl com.topjohnwu.superuser.internal.MainShell.getBuilder():0:0 -> run
+    2:2:void com.topjohnwu.superuser.internal.MainShell.lambda$get$2(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$GetShellCallback):0 -> run
+    2:2:void run():0 -> run
+    3:3:void com.topjohnwu.superuser.internal.MainShell.lambda$get$2(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$GetShellCallback):0:0 -> run
+    3:3:void run():0 -> run
+com.topjohnwu.superuser.internal.-$$Lambda$MainShell$rTdQV5F-rrC4DdEk4GqTIOk3gaY -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.nAiDtGlYlaGLtNRklZgBXGLbSLpYVK:
+    com.topjohnwu.superuser.Shell$GetShellCallback f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    com.topjohnwu.superuser.Shell f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.topjohnwu.superuser.internal.MainShell.lambda$null$1(com.topjohnwu.superuser.Shell$GetShellCallback,com.topjohnwu.superuser.Shell):0:0 -> run
+    1:1:void run():0 -> run
+com.topjohnwu.superuser.internal.-$$Lambda$PendingJob$03SlcN6w4E8KkXxlCj56PPebYNU -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.QZFmQyQscknaDvcgWvEcvzpCvVjZgU:
+    com.topjohnwu.superuser.internal.PendingJob f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    com.topjohnwu.superuser.Shell$ResultCallback f$2 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    java.util.concurrent.Executor f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.topjohnwu.superuser.internal.PendingJob.lambda$null$0(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell$Result):0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.topjohnwu.superuser.internal.PendingJob.lambda$null$0$PendingJob(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell$Result):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void onResult(com.topjohnwu.superuser.Shell$Result):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+com.topjohnwu.superuser.internal.-$$Lambda$PendingJob$bS70F1tiBbXB-YYIpfktjueOJJc -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.dtNrvlNDjWTiaDsElifnVGZxXoFHlO:
+    com.topjohnwu.superuser.internal.PendingJob f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    com.topjohnwu.superuser.Shell$ResultCallback f$2 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    java.util.concurrent.Executor f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1$PendingJob(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void onShell(com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    2:2:boolean com.topjohnwu.superuser.Shell.isRoot():0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    2:2:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    2:2:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1$PendingJob(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    2:2:void onShell(com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    3:3:int com.topjohnwu.superuser.internal.ShellImpl.getStatus():0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    3:3:boolean com.topjohnwu.superuser.Shell.isRoot():0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    3:3:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    3:3:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1$PendingJob(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    3:3:void onShell(com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    4:4:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    4:4:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1$PendingJob(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    4:4:void onShell(com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    5:5:void com.topjohnwu.superuser.internal.ResultImpl.callback(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    5:5:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    5:5:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1$PendingJob(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    5:5:void onShell(com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    6:6:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    6:6:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1$PendingJob(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    6:6:void onShell(com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    7:7:void com.topjohnwu.superuser.internal.JobImpl.submit(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    7:7:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    7:7:void com.topjohnwu.superuser.internal.PendingJob.lambda$submit$1$PendingJob(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback,com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    7:7:void onShell(com.topjohnwu.superuser.Shell):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+com.topjohnwu.superuser.internal.-$$Lambda$ResultImpl$c5het5Qym93AwkAmjYOCQTGOlwY -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.tUKvtlUkBgQRfeFYQOrhYShIRIlNIe:
+    com.topjohnwu.superuser.internal.ResultImpl f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    com.topjohnwu.superuser.Shell$ResultCallback f$1 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:void com.topjohnwu.superuser.internal.ResultImpl.lambda$callback$0$ResultImpl(com.topjohnwu.superuser.Shell$ResultCallback):0:0 -> run
+    1:1:void run():0 -> run
+    2:2:void com.topjohnwu.superuser.internal.ResultImpl.lambda$callback$0(com.topjohnwu.superuser.Shell$ResultCallback):0:0 -> run
+    2:2:void com.topjohnwu.superuser.internal.ResultImpl.lambda$callback$0$ResultImpl(com.topjohnwu.superuser.Shell$ResultCallback):0 -> run
+    2:2:void run():0 -> run
+com.topjohnwu.superuser.internal.-$$Lambda$ShellImpl$uj8uB1FvqquHgGOBlkWhvjAdzTc -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.ewYIwYypGrSKRjjiEcxSgktyzgGgIz:
+    com.topjohnwu.superuser.internal.ShellImpl f$0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:java.lang.Void com.topjohnwu.superuser.internal.ShellImpl.shellCheck():0:0 -> call
+    1:1:java.lang.Void com.topjohnwu.superuser.internal.ShellImpl.lambda$uj8uB1FvqquHgGOBlkWhvjAdzTc(com.topjohnwu.superuser.internal.ShellImpl):0 -> call
+    1:1:java.lang.Object call():0 -> call
+com.topjohnwu.superuser.internal.BuilderImpl -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.XijjWWEbHrPVrQUtXbkNbYPBGBSoWt:
+    1:1:int com.topjohnwu.superuser.internal.ShellImpl.getStatus():0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:com.topjohnwu.superuser.internal.ShellImpl build():0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    2:2:com.topjohnwu.superuser.internal.ShellImpl build():0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    3:3:int com.topjohnwu.superuser.internal.ShellImpl.getStatus():0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    3:3:com.topjohnwu.superuser.internal.ShellImpl build():0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    4:4:com.topjohnwu.superuser.internal.ShellImpl build():0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void com.topjohnwu.superuser.internal.MainShell.set(com.topjohnwu.superuser.internal.ShellImpl):0:0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:com.topjohnwu.superuser.internal.ShellImpl build(java.lang.String[]):0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    2:2:com.topjohnwu.superuser.internal.ShellImpl build(java.lang.String[]):0:0 -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    boolean hasFlags(int) -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+com.topjohnwu.superuser.internal.CommandSource -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.PDGcYTYTIhdbMYDxotjwLPOTdssCyV:
+    java.lang.String[] cmd -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    void serve(java.io.OutputStream) -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+com.topjohnwu.superuser.internal.JobImpl -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.AcvjCvhFscICNahxJxjmNrYvedLsKr:
+    java.util.List err -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    java.util.List sources -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    java.util.List out -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    com.topjohnwu.superuser.internal.ShellImpl shell -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+com.topjohnwu.superuser.internal.MainShell -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.jtgaehgiWHbNvzzOBkCclQvjnNomXq:
+    boolean isInitMain -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    com.topjohnwu.superuser.internal.ShellImpl mainShell -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    com.topjohnwu.superuser.internal.BuilderImpl defaultBuilder -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    1:1:int com.topjohnwu.superuser.internal.ShellImpl.getStatus():0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:com.topjohnwu.superuser.internal.ShellImpl getCached():0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    2:2:com.topjohnwu.superuser.internal.ShellImpl getCached():0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+com.topjohnwu.superuser.internal.NOPList -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.eLnPtUrPrfmHHPTdUFLrIlsPSzjbJd:
+    com.topjohnwu.superuser.internal.NOPList list -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+com.topjohnwu.superuser.internal.PendingJob -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.bQcCDiBAgFGbTQuCPWNqAZufbLQYjw:
+    boolean isSU -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    boolean retry -> dtNrvlNDjWTiaDsElifnVGZxXoFHlO
+    1:1:com.topjohnwu.superuser.internal.NOPList com.topjohnwu.superuser.internal.NOPList.getInstance():0:0 -> <init>
+    1:1:void <init>(boolean):0 -> <init>
+    2:2:com.topjohnwu.superuser.Shell$Job com.topjohnwu.superuser.internal.JobImpl.to(java.util.List):0:0 -> <init>
+    2:2:void <init>(boolean):0 -> <init>
+    1:1:void com.topjohnwu.superuser.internal.MainShell.get(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$GetShellCallback):0:0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    1:1:void submit(java.util.concurrent.Executor,com.topjohnwu.superuser.Shell$ResultCallback):0 -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+com.topjohnwu.superuser.internal.ResultImpl -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.wdlNRoHJKKNSIWlxToKmIytOUYEsXK:
+    java.util.List err -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    java.util.List out -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    com.topjohnwu.superuser.internal.ResultImpl INSTANCE -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    com.topjohnwu.superuser.internal.ResultImpl SHELL_ERR -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+com.topjohnwu.superuser.internal.SerialExecutorService -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.sMtghEyFEiUNNRLqJoOognLOxVOyqm:
+    boolean isShutdown -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    java.util.concurrent.FutureTask scheduleTask -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    java.util.ArrayDeque mTasks -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:java.lang.Void call():0:0 -> call
+    1:1:java.lang.Object call():0 -> call
+com.topjohnwu.superuser.internal.ShellImpl -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.bRYUabiJkeXEKDbMLSTbtWcGHVnPbd:
+    com.topjohnwu.superuser.internal.ShellImpl$NoCloseInputStream STDERR -> ewYIwYypGrSKRjjiEcxSgktyzgGgIz
+    com.topjohnwu.superuser.internal.ShellImpl$NoCloseInputStream STDOUT -> tUKvtlUkBgQRfeFYQOrhYShIRIlNIe
+    boolean redirect -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    java.lang.Process process -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    int status -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    java.util.concurrent.ExecutorService executor -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    com.topjohnwu.superuser.internal.ShellImpl$NoCloseOutputStream STDIN -> dtNrvlNDjWTiaDsElifnVGZxXoFHlO
+    void release() -> QZFmQyQscknaDvcgWvEcvzpCvVjZgU
+    void execTask(com.topjohnwu.superuser.Shell$Task) -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+com.topjohnwu.superuser.internal.ShellImpl$NoCloseInputStream -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.bRYUabiJkeXEKDbMLSTbtWcGHVnPbd$VRYMrIQOPhiURjjUPyLWfbgkGSQIMj:
+    void close0() -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+com.topjohnwu.superuser.internal.ShellImpl$NoCloseOutputStream -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.bRYUabiJkeXEKDbMLSTbtWcGHVnPbd$dODgNFAbdoyPmGcGmOEBXmAGPZZoaN:
+    void close0() -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+com.topjohnwu.superuser.internal.ShellInputSource -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.qKTkszrifLWgMAQGXgTXYNxqTQFlxj:
+    void serve(java.io.OutputStream) -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+com.topjohnwu.superuser.internal.ShellInputSource$-CC -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.AxkaKfHqODGDWsNswQbqRKNuvZUUra:
+    void com.topjohnwu.superuser.internal.ShellInputSource.close() -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+com.topjohnwu.superuser.internal.ShellTerminatedException -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.wEPamXkmUSaqcAEUVtwzWbvfsKdlGB:
+com.topjohnwu.superuser.internal.StreamGobbler -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.dZMXZnkNEdvmNUJXFKAekOJIxrWbVy:
+    java.io.InputStream in -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    java.util.List list -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    1:1:boolean outputAndCheck(java.lang.String):0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:java.lang.String process(boolean):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    2:2:java.lang.String process(boolean):0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+com.topjohnwu.superuser.internal.StreamGobbler$ERR -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.dZMXZnkNEdvmNUJXFKAekOJIxrWbVy$VRYMrIQOPhiURjjUPyLWfbgkGSQIMj:
+    1:1:java.lang.Void call():0:0 -> call
+    1:1:java.lang.Object call():0 -> call
+com.topjohnwu.superuser.internal.StreamGobbler$OUT -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.dZMXZnkNEdvmNUJXFKAekOJIxrWbVy$dODgNFAbdoyPmGcGmOEBXmAGPZZoaN:
+    1:1:java.lang.Integer call():0:0 -> call
+    1:1:java.lang.Object call():0 -> call
+com.topjohnwu.superuser.internal.TaskImpl -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.uEfkIMTtmpcUmQhYATEkrbuCRlTAhX:
+    byte[] END_CMD -> nAiDtGlYlaGLtNRklZgBXGLbSLpYVK
+    java.util.List sources -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    com.topjohnwu.superuser.internal.ResultImpl res -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    java.lang.String END_UUID -> ePsyOmfznuQVenePWthkeaFjZAWOjx
+    void run(java.io.OutputStream,java.io.InputStream,java.io.InputStream) -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+com.topjohnwu.superuser.internal.UiThreadHandler -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.LYjgnWFdpwRHFpDybctTYjdqaouOrE:
+    android.os.Handler handler -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    java.util.concurrent.Executor executor -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+com.topjohnwu.superuser.internal.Utils -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.dODgNFAbdoyPmGcGmOEBXmAGPZZoaN.VRYMrIQOPhiURjjUPyLWfbgkGSQIMj.ePsyOmfznuQVenePWthkeaFjZAWOjx.awyBGICaRreDYNnWyJBdNSnVayugTZ:
+    java.lang.Class synchronizedCollectionClass -> dODgNFAbdoyPmGcGmOEBXmAGPZZoaN
+    java.nio.charset.Charset UTF_8 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void err(java.lang.String,java.lang.Throwable):0:0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj
+    1:1:void err(java.lang.Throwable):0 -> VRYMrIQOPhiURjjUPyLWfbgkGSQIMj

@@ -1,0 +1,49 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.skullshooter.ssplugin.app"
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 11
+        versionName "1.1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            jniDebuggable = true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "plugin.apk"
+                }
+            }
+        }
+        debug {
+            minifyEnabled true
+            jniDebuggable = true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "plugin.apk"
+                }
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation "com.github.topjohnwu.libsu:core:2.5.0"
+    implementation 'com.github.MatteoBattilana:WeatherView:3.0.0'
+}

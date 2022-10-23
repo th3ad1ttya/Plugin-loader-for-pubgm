@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialogCustom"
+    android:layout_width="@dimen/dialog_dize"
+    android:layout_height="wrap_content"
+    android:background="@color/default_click"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:layout_gravity="center"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="MissingConstraints">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/select_version"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <RadioGroup
+                android:id="@+id/versionGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/vGlobal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:buttonTint="@drawable/radiobutton_tint"
+                    android:text="@string/global"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:id="@+id/vKorean"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@drawable/radiobutton_tint"
+                    android:text="@string/korean"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:id="@+id/vVietnam"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@drawable/radiobutton_tint"
+                    android:text="@string/vietnam"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:id="@+id/vTaiwan"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@drawable/radiobutton_tint"
+                    android:text="@string/taiwan"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+
+                <RadioButton
+                    android:id="@+id/vIndia"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@drawable/radiobutton_tint"
+                    android:text="@string/india"
+                    android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:textSize="18dp" />
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/saveVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"
+                android:text="@string/save"
+                android:padding="10dp"
+                android:background="@drawable/effect"
+                android:textColor="@color/teal_300"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

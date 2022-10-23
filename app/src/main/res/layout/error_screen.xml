@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/ss_Color_primary">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_error"
+        android:textSize="12dp"
+        android:padding="15dp"
+        android:id="@+id/error_connection_txt"
+        android:gravity="center"
+        android:textColor="@color/textColorSecondly"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tap_to_refs"
+        android:textSize="14dp"
+        android:id="@+id/tapToRefs"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/araboto_bold400"
+        app:layout_constraintTop_toBottomOf="@+id/error_connection_txt"
+        android:textColor="@color/textColorSecondly"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

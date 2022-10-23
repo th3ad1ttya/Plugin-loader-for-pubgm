@@ -1,0 +1,4 @@
+#Sat Oct 22 10:13:20 PDT 2022
+base.0=F\:\\Compleate Package-SkullShooter\\Android\\Loader+Plugins\\plugin\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

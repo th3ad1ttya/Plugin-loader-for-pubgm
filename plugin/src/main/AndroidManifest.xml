@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.skullshooter.ssplugin.app">
+
+    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:name="a.a"
+        android:label="${applicationId}"
+        android:theme="@style/Theme.Plugin">
+        <activity android:name="a.b"
+            android:theme="@style/Theme.Plugin"/>
+        <activity android:name="a.c"/>
+        <activity android:name="a.d"/>
+        <activity android:name="a.e"/>
+        <service android:name="a.f"/>
+        <service android:name="a.g"/>
+        <activity android:name="a.l"/>
+    </application>
+
+</manifest>

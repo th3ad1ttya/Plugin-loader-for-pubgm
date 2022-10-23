@@ -1,0 +1,60 @@
+plugins {
+    id 'com.android.application'
+}
+
+class Scrambler {
+    Random random = new Random()
+
+    String getRandomString(int i) {
+        return random.with {(1..(6 + random.nextInt(i))).collect {(('a'..'z')).join()[ nextInt((('a'..'z')).join().length())]}.join()}
+    }
+}
+
+Scrambler scrambler = new Scrambler()
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "com.skullshooter.ssloader.app"
+        minSdkVersion 18
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.4"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [appName: "Hathaway"]
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "installer.apk"
+                }
+            }
+        }
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            manifestPlaceholders = [appName: "Hathaway"]
+            android.applicationVariants.all { variant ->
+                variant.outputs.all {
+                    outputFileName = "installer.apk"
+                }
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'com.github.MatteoBattilana:WeatherView:3.0.0'
+}

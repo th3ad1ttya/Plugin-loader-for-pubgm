@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="10dp"
+        tools:ignore="MissingConstraints">
+
+
+        <View
+            android:id="@id/view_in_middle"
+            android:layout_width="0.0dip"
+            android:layout_height="0.0dip"
+            android:layout_centerInParent="true" />
+
+        <LinearLayout
+            android:id="@id/startCheats"
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toLeftOf="@id/view_in_middle"
+            android:background="@drawable/bg_start"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_play"
+                app:tint="#ffffffff" />
+
+            <TextView
+                android:id="@+id/startText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1.0dip"
+                android:text="@string/startmenu"
+                android:fontFamily="@font/araboto"
+                android:textColor="#ffffffff"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/kill"
+            android:layout_width="fill_parent"
+            android:layout_height="75dp"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_toRightOf="@id/view_in_middle"
+            android:background="@drawable/bg_stop"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UnknownId">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_baseline_stop_24"
+                app:tint="#ffffffff" />
+
+            <TextView
+                android:id="@+id/stopText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1.0dip"
+                android:text="@string/stopmenu"
+                android:fontFamily="@font/araboto"
+                android:textColor="#ffffffff"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

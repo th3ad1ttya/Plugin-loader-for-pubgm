@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:background="@android:color/transparent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@id/floatingMain"
+            android:background="@color/inside_float"
+            android:visibility="visible"
+            android:layout_width="350.0dip"
+            android:layout_height="fill_parent">
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <ScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@id/sideMenu">
+
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:background="@color/side_float"
+                        android:layout_width="75dp"
+                        android:layout_height="fill_parent">
+
+                        <RelativeLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:padding="5dp">
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="fill_parent"
+                                android:layout_height="80dp"
+                                app:cardCornerRadius="10dp"
+                                android:id="@+id/vision_Btn"
+                                android:layout_marginTop="50dp">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center"
+                                    android:background="@color/teamID4"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="40dp"
+                                            android:layout_height="40dp"
+                                            android:src="@drawable/ic_vision_active"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="ESP"
+                                            android:textColor="@color/black"/>
+
+
+                                    </LinearLayout>
+
+
+                                </LinearLayout>
+
+
+
+                            </androidx.cardview.widget.CardView>
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="fill_parent"
+                                android:layout_height="80dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_below="@+id/vision_Btn"
+                                android:id="@+id/itemsButton"
+                                app:cardBackgroundColor="@android:color/transparent"
+                                android:layout_marginTop="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="40dp"
+                                            android:layout_height="40dp"
+                                            android:src="@drawable/ic_weapon_nonactive"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Iteams"
+                                            android:textColor="#CCCBCB"/>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="fill_parent"
+                                android:layout_height="80dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_below="@+id/itemsButton"
+                                android:id="@+id/aimbotButton"
+                                app:cardBackgroundColor="@android:color/transparent"
+                                android:layout_marginTop="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="40dp"
+                                            android:layout_height="40dp"
+                                            android:src="@drawable/ic_aimbot_nonactive"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Aimbot"
+                                            android:textColor="#CCCBCB"/>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="fill_parent"
+                                android:layout_height="80dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_below="@+id/aimbotButton"
+                                android:id="@+id/settingButton"
+                                app:cardBackgroundColor="@android:color/transparent"
+                                android:layout_marginTop="10dp">
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center"
+                                    android:gravity="center">
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <ImageView
+                                            android:layout_width="40dp"
+                                            android:layout_height="40dp"
+                                            android:src="@drawable/ic_settings_nonactive"/>
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="Settings"
+                                            android:textColor="#CCCBCB"/>
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                        </RelativeLayout>
+
+
+
+                    </LinearLayout>
+
+
+                </ScrollView>
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/sideMenu">
+
+
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:background="@color/side_float">
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:id="@id/closeBtn"
+                            android:layout_width="20.0dip"
+                            android:layout_height="20.0dip"
+                            android:layout_marginTop="5.0dip"
+                            android:layout_marginRight="10.0dip"
+                            android:src="@drawable/ic_close"
+                            android:layout_alignParentRight="true"/>
+                        <TextView
+                            android:textSize="17.0dip"
+                            android:textColor="#ffffffff"
+                            android:gravity="center"
+                            android:id="@id/infoMenu"
+                            android:padding="5.0dip"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5.0dip"
+                            android:text="Display"
+                            android:layout_toLeftOf="@id/closeBtn"/>
+                    </RelativeLayout>
+
+
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <LinearLayout
+                            android:orientation="vertical"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent">
+
+                            <LinearLayout
+                                android:orientation="vertical"
+                                android:id="@id/playermenu"
+                                android:visibility="visible"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content">
+
+
+                                <TextView
+                                    android:textSize="16.0dip"
+                                    android:textColor="#ffffffff"
+                                    android:gravity="center"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5.0dip"
+                                    android:layout_marginTop="5.0dip"
+                                    android:text="CORE"/>
+
+
+                                <LinearLayout
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <Switch
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Box"
+                                        android:textColor="@color/white"
+                                        android:padding="6dp"
+                                        android:buttonTint="@drawable/radiobutton_tint"
+                                        android:id="@+id/playerBox"/>
+
+                                    <Switch
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Line"
+                                        android:textColor="@color/white"
+                                        android:padding="6dp"
+                                        android:buttonTint="@drawable/radiobutton_tint"
+                                        android:id="@+id/playerLine"/>
+
+                                    <Switch
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="EDGE Warning"
+                                        android:textColor="@color/white"
+                                        android:padding="6dp"
+                                        android:buttonTint="@drawable/radiobutton_tint"
+                                        android:id="@+id/edgePlayers"/>
+
+                                    <Switch
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Enemy count"
+                                        android:textColor="@color/white"
+                                        android:padding="6dp"
+                                        android:buttonTint="@drawable/radiobutton_tint"
+                                        android:id="@+id/playerCount"/>
+
+
+                                    <Switch
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Throuables"
+                                        android:textColor="@color/white"
+                                        android:padding="6dp"
+                                        android:buttonTint="@drawable/radiobutton_tint"
+                                        android:id="@+id/throuables"/>
+
+
+                                    <TextView
+                                        android:textSize="16.0dip"
+                                        android:textColor="#ffffffff"
+                                        android:gravity="center"
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="5.0dip"
+                                        android:layout_marginTop="5.0dip"
+                                        android:text="PLAYER"/>
+
+                                    <Switch
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Name"
+                                        android:textColor="@color/white"
+                                        android:padding="6dp"
+                                        android:buttonTint="@drawable/radiobutton_tint"
+                                        android:id="@+id/playerName"/>
+
+                                    <Switch
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Team ID"
+                                        android:textColor="@color/white"
+                                        android:padding="6dp"
+                                        android:buttonTint="@drawable/radiobutton_tint"
+                                        android:id="@+id/playerTeamID"/>
+
+
+                                    <Switch
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Throuables"
+                                        android:textColor="@color/white"
+                                        android:padding="6dp"
+                                        android:buttonTint="@drawable/radiobutton_tint"
+                                        android:id="@+id/playerDistance"/>
+
+
+                                    <Switch
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:text="Player Weapon"
+                                        android:textColor="@color/white"
+                                        android:padding="6dp"
+                                        android:buttonTint="@drawable/radiobutton_tint"
+                                        android:id="@+id/playerWeapon"/>
+
+
+
+                                </LinearLayout>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </ScrollView>
+
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

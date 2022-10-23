@@ -1,0 +1,48 @@
+{
+    "loader":{
+        "version": "1.4"
+    },
+    "announce_ttl": {
+        "name": "Welcome to skullshooter, click here to join our telegram channel for more announcement"
+    },
+    "weather32": {
+        "typeWeather": "Clear"
+    },
+    "status32bit":{
+        "name": "Safe"
+    },
+    "status64bit": {
+        "name": "unsafe"
+    },
+    "plugin": {
+        "version": "1.1.0",
+        "url": "https://ttmp.fun/testy/loader/plugin/plugin.apk"
+    },
+    "plugin64": {
+        "version": "1.0.6",
+        "url": "https://ttmp.fun/testy/loader/plugin/plugin64.apk"
+    },
+    "ismaintenance": {
+        "version": "",
+        "name": "false"
+    },
+    "libpg32NativeArm_v8a.so": {
+        "version": "1.0.0",
+        "url": "https://ttmp.fun/testy/loader/native_files/pg32/armv8a/liblibpg-lib"
+    },
+    
+    "libpg32NativeArm_v7a.so": {
+        "version": "1.0.0",
+        "url": "https://ttmp.fun/testy/loader/native_files/pg32/armv7a/liblibpg-lib"
+    },
+    "libpg64NativeArm_v8a.so": {
+        "version": "1.0.0",
+        "url": "https://ttmp.fun/testy/loader/native_files/pg64/armv8a/liblibpg64-lib"
+    },
+   "libpg64NativeArm_v7a.so": {
+        "version": "1.0.0",
+        "url": "https://ttmp.fun/testy/loader/native_files/pg64/armv8a/liblibpg64-lib"
+    }
+    
+    
+}

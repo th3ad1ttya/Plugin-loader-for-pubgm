@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Plugin" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ThemeOverlay.AppTheme.TextInputEditText.Outlined" parent="">
+        <item name="colorControlActivated">@color/clr_button</item>
+        <item name="colorControlNormal">@color/horizontal_dividing_line</item>
+    </style>
+
+    <style
+        name="Gm2Theme.EditText"
+        parent="@style/Theme.Plugin">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">32</item>
+        <item name="android:textColor">@color/ColorTextPrimary</item>
+        <item name="android:textColorHint">@color/ColorTextSecondly</item>
+    </style>
+</resources>

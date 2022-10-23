@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ss_Color_primary">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="3dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@color/color_materials"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/selection_32bit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/material"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="4dp">
+
+                        <TextView
+                            android:id="@+id/text32bit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="3dp"
+                            android:gravity="center"
+                            android:text="@string/pg_nm_32_bit"
+                            android:textColor="#ffffffff"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:id="@+id/safety32bit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+                            android:textColor="@color/safe"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/installation_status_32bit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="2.0dip"
+                            android:layout_toRightOf="@id/text32bit"
+                            android:gravity="center"
+                            android:text="@string/not_installed"
+                            android:textColor="#afb2b9"
+                            android:textSize="16dp" />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@color/color_materials"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/selection_64bit"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/material"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="4dp">
+
+                        <TextView
+                            android:id="@+id/text64bit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="3dp"
+                            android:gravity="center"
+                            android:text="@string/pg_nm_64_bit"
+                            android:textColor="#ffffffff"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:id="@+id/safety64bit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+                            android:textColor="@color/safe"
+                            android:textSize="24dp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/installation_status_64bit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="2.0dip"
+                            android:layout_toRightOf="@id/text64bit"
+                            android:gravity="center"
+                            android:text="@string/not_installed"
+                            android:textColor="#afb2b9"
+                            android:textSize="16dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <!--<LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginRight="3dp"
+                    android:background="@color/color_materials"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/selection_lite"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center"
+                        android:background="@drawable/material"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="4dp">
+
+                        <TextView
+                            android:id="@+id/textLite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="3dp"
+                            android:gravity="center"
+                            android:text="@string/pg_nm_lt"
+                            android:textColor="#ffffffff"
+                            android:textSize="24dp" />
+
+                        <TextView
+                            android:id="@+id/safetyLite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="15.0dip"
+                            android:gravity="center"
+                            android:text="@string/comingSoon"
+                            android:textColor="@color/unsafe"
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:id="@+id/installation_status_Lite"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="2.0dip"
+                            android:layout_toRightOf="@id/textLite"
+
+                            android:gravity="center"
+                            android:text="@string/not_avaiable"
+                            android:textColor="#afb2b9"
+                            android:textSize="16dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                !-->
+
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

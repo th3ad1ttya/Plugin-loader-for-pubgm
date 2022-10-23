@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/ss_float_main_300ppi"
+        android:height="50dp"
+        android:width="50dp"
+        android:gravity="center_horizontal">
+    </item>
+<item>
+    <shape
+        android:shape="rectangle">
+        <stroke
+            android:width="2dp"
+            android:color="@color/clickFeedBackStrock" />
+        <corners
+            android:radius="100dp" />
+
+        <size android:height="50dp"
+            android:width="50dp"/>
+
+        <gradient
+            android:startColor="@color/clickFeedBack"
+            android:centerColor="@color/clickFeedBack"
+            android:endColor="@color/clickFeedBack"
+            android:angle="90" />
+    </shape>
+</item>
+
+</layer-list>

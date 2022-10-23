@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Loader</string>
+    <string name="loader_name">SkullShooter Loader v%s.s</string>
+    <string name="announcement">Announcement</string>
+    <string name="hack_info">Please select the hack you want to start, or tap and hold an item for more options.</string>
+    <string name="data_update_time">%d.s-%m.s-%y.s %hh.s:%mm.s:%ss.s %s</string>
+    <string name="pg_nm_32_bit">PUBG Mobile [32-bit]</string>
+    <string name="not_installed">Not installed</string>
+    <string name="safe">Safe</string>
+    <string name="pg_nm_64_bit">PUBG Mobile [64-bit]</string>
+    <string name="refresing">Refreshing loader info</string>
+    <string name="show_error">Errors</string>
+    <string name="pg_nm_lt">PUBG Mobile Lite</string>
+    <string name="not_avaiable"></string>
+    <string name="comingSoon">Coming soon...</string>
+    <string name="skull_name">SkullShooter Loader</string>
+    <string name="downloadandinstall">Download v:</string>
+    <string name="con_with_curr_version">Continue with current v: </string>
+    <string name="tap_to_refs">Tap here to refresh...</string>
+    <string name="datawas">Data was updated at</string>
+    <string name="customized">Customized versions.json URL:</string>
+    <string name="adddr_example">https://example.com/updates.json</string>
+    <string name="reset">RESET</string>
+    <string name="loader_updateHints">hello world</string>
+    <string name="errotUpdateInfo">Common issues while update:\n\nIf you are facing (Apk not installed), Goto /sdcard/android/data/${applicationId}</string>
+    <string name="errotUpdateInfo2">/files/\n\n&#11044; Get a backup of the latest loader(Updated_loader.apk) in your internal storage or as your wish.\n&#11044; After backup done, Uninstall old loader than\n&#11044; After uninstall compleate, install the latest loader(Updated_loader.apk).\n\n\n&#11044;&#11044; SDK error like: (There was a problem parsing the package), kindly contact with any of our admin.</string>
+</resources>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ss_Color_primary">
+
+    <LinearLayout
+        android:id="@+id/abdr"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <RelativeLayout
+            android:id="@+id/importSettings"
+            android:background="@drawable/bg_clicker"
+            android:layout_width="fill_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/import_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:layout_marginBottom="2dp"
+                android:text="@string/import_stting"
+                android:fontFamily="@font/neue"
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_below="@id/import_set"
+            android:background="#ff808080"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/exportSettings"
+            android:background="@drawable/bg_clicker"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@id/import_set"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/exporter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ex_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ex_setting"
+                    android:textColor="#FFFFFF"
+                    android:fontFamily="@font/neue"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_below="@id/exporter"
+            android:background="#ff808080"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/settings_layout"
+            android:background="@drawable/bg_clicker"
+            android:layout_width="fill_parent"
+            android:padding="10dp"
+            android:layout_below="@id/exporter"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/id_settings"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:layout_marginLeft="15.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/settings"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/settings"
+                    android:fontFamily="@font/neue"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_below="@id/exporter"
+            android:background="#ff808080"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/logOutLayout"
+            android:background="@drawable/bg_clicker"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/exporter"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/id_changeExec"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/logOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/logout"
+                    android:textColor="#FF0000"
+                    android:fontFamily="@font/neue"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_below="@id/settings_layout"
+            android:background="#ff808080"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/help_layout"
+            android:background="@drawable/bg_clicker"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_below="@id/exporter"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/help"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.0dip"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/help_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/help"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/neue"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:layout_below="@id/id_settings"
+            android:background="#ff808080"
+            android:visibility="visible" />
+
+
+        <TextView
+            android:id="@id/linklink"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_settings"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="25.0dip"
+            android:text="@string/textlink"
+            android:fontFamily="@font/araboto"
+            android:textColor="#c9c9c9"
+            android:textSize="14.0dip"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

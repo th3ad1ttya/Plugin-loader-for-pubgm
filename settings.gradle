@@ -1,0 +1,4 @@
+include ':plugin64'
+include ':plugin'
+include ':app'
+rootProject.name = "SkullShooter-Master"
