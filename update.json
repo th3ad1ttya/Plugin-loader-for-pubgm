@@ -16,11 +16,11 @@
     },
     "plugin": {
         "version": "1.1.0",
-        "url": "https://ttmp.fun/testy/loader/plugin/plugin.apk"
+        "url": "https://yourdomain.com/plugin.apk"
     },
     "plugin64": {
         "version": "1.0.6",
-        "url": "https://ttmp.fun/testy/loader/plugin/plugin64.apk"
+        "url": "https://yourdomain.com/plugin64.apk"
     },
     "ismaintenance": {
         "version": "",
@@ -28,20 +28,20 @@
     },
     "libpg32NativeArm_v8a.so": {
         "version": "1.0.0",
-        "url": "https://ttmp.fun/testy/loader/native_files/pg32/armv8a/liblibpg-lib"
+        "url": "https://yourdomain.com/liblibpg-lib"
     },
     
     "libpg32NativeArm_v7a.so": {
         "version": "1.0.0",
-        "url": "https://ttmp.fun/testy/loader/native_files/pg32/armv7a/liblibpg-lib"
+        "url": "https://yourdomain.com/liblibpg-lib"
     },
     "libpg64NativeArm_v8a.so": {
         "version": "1.0.0",
-        "url": "https://ttmp.fun/testy/loader/native_files/pg64/armv8a/liblibpg64-lib"
+        "url": "https://yourdomain.com/liblibpg64-lib"
     },
    "libpg64NativeArm_v7a.so": {
         "version": "1.0.0",
-        "url": "https://ttmp.fun/testy/loader/native_files/pg64/armv8a/liblibpg64-lib"
+        "url": "https://yourdomain.com/liblibpg64-lib"
     }
     
     
