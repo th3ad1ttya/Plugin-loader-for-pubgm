@@ -55,21 +55,17 @@
 
 ## How To Use
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Android Studio](https://developer.android.com/download/) installed on your computer. From your command line:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Android Studio 2021.2.1+](https://developer.android.com/) installed on your computer. And follow the commends:
 
 ```bash
+# Open Android studio
+
 # Clone this repository
-$ git clone https://github.com/amitmerchant1990/electron-markdownify
+$ git clone https://github.com/th3ad1ttya/Plugin-loader-for-pubgm
 
-# Go into the repository
-$ cd electron-markdownify
-
-# Install dependencies
-$ npm install
-
-# Run the app
-$ npm start
 ```
+
+> Goto &nbsp;&middot;&nbsp;main&nbsp;&middot;&nbsp;java&nbsp;&middot;&nbsp;com.skullshooter.ssloader.app&nbsp;&middot;&nbsp;api&nbsp;&middot;&nbsp;API.Java **'\_API'Replace with your server url**
 
 > **Note**
 > Don't update your repository until upload Backend!
