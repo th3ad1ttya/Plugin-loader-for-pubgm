@@ -1,7 +1,7 @@
 package com.skullshooter.ssloader.app.api;
 
 public class API {
-    public static String _API = "http://192.168.8.101/update.json";
+    public static String _API = "http://192.168.8.101/api/v2/fetchAppData";
 
     //Fetch data
     public static String API_LOADER_VERSION = "loaderVersion";
