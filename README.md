@@ -39,13 +39,13 @@ $ git clone https://github.com/th3ad1ttya/Plugin-loader-for-pubgm
 
 ## Compatible with...
 
-- [This Laravel-9 Backend](https://github.com/th3ad1ttya/) - Coming soon!
+- [This Laravel-9 Backend](https://github.com/th3ad1ttya/Admin-panel-Laravel-9) - Coming soon!
 
 ## Credits
 
 Original creator of this open source project:
 
-- [XNinjaCheats](https://t.me/xninjaxheats)
+- [XNinjaCheats](https://t.me/)
 - [ad1ttya](https://github.com/th3ad1ttya)
 
 ---
