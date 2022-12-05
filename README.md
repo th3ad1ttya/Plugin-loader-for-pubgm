@@ -63,9 +63,9 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [A
 # Clone this repository
 $ git clone https://github.com/th3ad1ttya/Plugin-loader-for-pubgm
 
-```
+> Goto &nbsp;&middot;&nbsp;main&nbsp;&middot;&nbsp;java&nbsp;&middot;&nbsp;com.skullshooter.ssloader.app&nbsp;&middot;&nbsp;api&nbsp;&middot;&nbsp;API.Java **'\_API' Replace with your server url**
 
-> Goto &nbsp;&middot;&nbsp;main&nbsp;&middot;&nbsp;java&nbsp;&middot;&nbsp;com.skullshooter.ssloader.app&nbsp;&middot;&nbsp;api&nbsp;&middot;&nbsp;API.Java **'\_API'Replace with your server url**
+```
 
 > **Note**
 > Don't update your repository until upload Backend!
