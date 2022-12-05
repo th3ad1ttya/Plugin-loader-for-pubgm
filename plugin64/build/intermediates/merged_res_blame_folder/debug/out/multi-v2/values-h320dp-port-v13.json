@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Compleate Package-SkullShooter\\Android\\Loader+Plugins\\plugin64\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+            "outputFile": "C:\\Users\\th3ad1ttya\\Desktop\\PUBG\\Plugin-loader-for-pubgm\\plugin64\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Fr2nk3nst21n\\.gradle\\caches\\transforms-3\\1f88a084207688083612d478dc465782\\transformed\\material-1.6.1\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
+                    "source": "C:\\Users\\th3ad1ttya\\.gradle\\caches\\transforms-3\\1f88a084207688083612d478dc465782\\transformed\\material-1.6.1\\res\\values-h320dp-port-v13\\values-h320dp-port-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

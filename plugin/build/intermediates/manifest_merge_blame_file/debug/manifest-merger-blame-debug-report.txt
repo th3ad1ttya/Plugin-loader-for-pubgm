@@ -6,67 +6,67 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="18"
-8-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml
+8-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="26" />
-9-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml
+9-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
-11-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:6:5-91
-11-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:6:22-88
+11-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:6:5-91
+11-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:6:22-88
 12    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
-12-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:7:5-8:47
-12-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:7:22-83
+12-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:7:5-8:47
+12-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:7:22-83
 13    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-13-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:9:5-78
-13-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:9:22-75
+13-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:9:5-78
+13-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:9:22-75
 14    <uses-permission android:name="android.permission.INTERNET" />
-14-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:10:5-66
-14-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:10:22-64
+14-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:10:5-66
+14-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:10:22-64
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:11:5-78
-15-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:11:22-76
+15-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:11:5-78
+15-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:11:22-76
 16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-16-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:12:5-74
-16-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:12:22-72
+16-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:12:5-74
+16-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:12:22-72
 17
 18    <application
 19        android:name="a.a"
-19-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:16:9-27
+19-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:16:9-27
 20        android:allowBackup="true"
-20-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:15:9-35
+20-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:15:9-35
 21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.5.0] C:\Users\Fr2nk3nst21n\.gradle\caches\transforms-3\1a2b05a5f25dd6b060f56e7d241cad3c\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+21-->[androidx.core:core:1.5.0] C:\Users\th3ad1ttya\.gradle\caches\transforms-3\1a2b05a5f25dd6b060f56e7d241cad3c\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
 22        android:debuggable="true"
 23        android:label="com.skullshooter.ssplugin.app"
-23-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:17:9-41
+23-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:17:9-41
 24        android:theme="@style/Theme.Plugin" >
-24-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:18:9-44
+24-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:18:9-44
 25        <activity
-25-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:19:9-20:50
+25-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:19:9-20:50
 26            android:name="a.b"
-26-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:19:19-37
+26-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:19:19-37
 27            android:theme="@style/Theme.Plugin" />
-27-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:20:13-48
+27-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:20:13-48
 28        <activity android:name="a.c" />
-28-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:21:9-39
-28-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:21:19-37
+28-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:21:9-39
+28-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:21:19-37
 29        <activity android:name="a.d" />
-29-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:22:9-39
-29-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:22:19-37
+29-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:22:9-39
+29-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:22:19-37
 30        <activity android:name="a.e" />
-30-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:23:9-39
-30-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:23:19-37
+30-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:23:9-39
+30-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:23:19-37
 31
 32        <service android:name="a.f" />
-32-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:24:9-38
-32-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:24:18-36
+32-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:24:9-38
+32-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:24:18-36
 33        <service android:name="a.g" />
-33-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:25:9-38
-33-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:25:18-36
+33-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:25:9-38
+33-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:25:18-36
 34
 35        <activity android:name="a.l" />
-35-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:26:9-39
-35-->F:\Compleate Package-SkullShooter\Android\Loader+Plugins\plugin\src\main\AndroidManifest.xml:26:19-37
+35-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:26:9-39
+35-->C:\Users\th3ad1ttya\Desktop\PUBG\Plugin-loader-for-pubgm\plugin\src\main\AndroidManifest.xml:26:19-37
 36    </application>
 37
 38</manifest>

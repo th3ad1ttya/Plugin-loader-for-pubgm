@@ -16424,8 +16424,8 @@ androidx.transition.Slide$2
 com.google.android.material.color.DynamicColors
 androidx.appcompat.widget.FitWindowsFrameLayout:
     public void <init>(android.content.Context)
-kotlin.Result
 kotlin.KotlinVersion
+kotlin.Result
 androidx.appcompat.widget.SwitchCompat
 androidx.appcompat.view.StandaloneActionMode:
     public void onCloseMenu(androidx.appcompat.view.menu.MenuBuilder,boolean)

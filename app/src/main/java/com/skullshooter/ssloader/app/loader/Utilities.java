@@ -37,7 +37,7 @@ public class Utilities {
         fileOrDirectory.delete();
     }
 
-    static void triggerRebirth(Context context) {
+    public static void triggerRebirth(Context context) {
         Intent intent = context.getPackageManager().getLaunchIntentForPackage(context.getPackageName());
         ComponentName componentName = intent.getComponent();
         Intent mainIntent = Intent.makeRestartActivityTask(componentName);

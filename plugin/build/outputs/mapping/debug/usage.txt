@@ -1849,8 +1849,8 @@ androidx.loader.content.ModernAsyncTask$3
 kotlin.jvm.functions.Function7
 androidx.viewpager2.adapter.FragmentStateAdapter$DataSetChangeObserver
 kotlin.coroutines.experimental.migration.ExperimentalContinuationInterceptorMigration
-androidx.constraintlayout.motion.widget.KeyCycleOscillator$ElevationSet
 androidx.constraintlayout.motion.widget.KeyCycleOscillator$CustomSet
+androidx.constraintlayout.motion.widget.KeyCycleOscillator$ElevationSet
 com.google.android.material.chip.ChipGroup:
     public void <init>(android.content.Context)
     public void check(int)
@@ -3650,13 +3650,13 @@ androidx.core.net.ParseException
 androidx.appcompat.widget.AlertDialogLayout:
     public void <init>(android.content.Context)
 androidx.core.view.ViewCompat$FocusDirection
-com.google.android.material.internal.CollapsingTextHelper$2
 com.google.android.material.math.MathUtils:
     private void <init>()
     public static boolean geq(float,float,float)
     public static float floorMod(float,int)
     public static int floorMod(int,int)
     public static final float DEFAULT_EPSILON
+com.google.android.material.internal.CollapsingTextHelper$2
 androidx.appcompat.view.menu.CascadingMenuPopup$HorizPosition
 androidx.activity.ComponentActivity:
     public void <init>(int)
@@ -16467,8 +16467,8 @@ androidx.transition.Slide$2
 com.google.android.material.color.DynamicColors
 androidx.appcompat.widget.FitWindowsFrameLayout:
     public void <init>(android.content.Context)
-kotlin.KotlinVersion
 kotlin.Result
+kotlin.KotlinVersion
 androidx.appcompat.widget.SwitchCompat
 androidx.appcompat.view.StandaloneActionMode:
     public void onCloseMenu(androidx.appcompat.view.menu.MenuBuilder,boolean)
@@ -16601,8 +16601,8 @@ androidx.appcompat.app.TwilightCalculator
 com.skullshooter.ssplugin.app.activities.OAuthVreifications:
     private synthetic void lambda$downloadNative32v7$10(android.content.DialogInterface,int)
     private synthetic void lambda$downloadNative32v8$6(android.content.DialogInterface,int)
-    public synthetic void lambda$downloadNative32v8$6$OAuthVreifications(android.content.DialogInterface,int)
     public synthetic void lambda$downloadNative32v7$10$OAuthVreifications(android.content.DialogInterface,int)
+    public synthetic void lambda$downloadNative32v8$6$OAuthVreifications(android.content.DialogInterface,int)
     public final java.lang.String USER
     public final java.lang.String PASS
     public android.app.ProgressDialog mPDialog
@@ -19330,5 +19330,5 @@ androidx.appcompat.view.menu.BaseMenuPresenter:
     public android.view.LayoutInflater mInflater
     public int mId
 androidx.appcompat.view.StandaloneActionMode
-com.skullshooter.ssplugin.app.activities.-$$Lambda$OAuthVreifications$oFoAOYqLb0RDZMA65S5KXeucP54
 com.skullshooter.ssplugin.app.activities.-$$Lambda$OAuthVreifications$XboLPTmNjkYEEujoOYXAw8cZEZA
+com.skullshooter.ssplugin.app.activities.-$$Lambda$OAuthVreifications$oFoAOYqLb0RDZMA65S5KXeucP54

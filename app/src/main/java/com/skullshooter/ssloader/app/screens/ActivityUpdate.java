@@ -70,17 +70,6 @@ import java.util.Objects;
 
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
-import static com.skullshooter.ssloader.app.loaderConfiguarations.LoaderConfig.CLEAR_WEATHER;
-import static com.skullshooter.ssloader.app.loaderConfiguarations.LoaderConfig.LOADER;
-import static com.skullshooter.ssloader.app.loaderConfiguarations.LoaderConfig.LOADER_VERSION;
-import static com.skullshooter.ssloader.app.loaderConfiguarations.LoaderConfig.RAIN_WEATHER;
-import static com.skullshooter.ssloader.app.loaderConfiguarations.LoaderConfig.SNOW_WEATHER;
-import static com.skullshooter.ssloader.app.loaderConfiguarations.LoaderConfig.UPDATE_INFO;
-import static com.skullshooter.ssloader.app.loaderConfiguarations.LoaderConfig.UPDATE_LINK;
-import static com.skullshooter.ssloader.app.loaderConfiguarations.LoaderConfig.UPDATE_TTL;
-import static com.skullshooter.ssloader.app.loaderConfiguarations.LoaderConfig.VERSION;
-import static com.skullshooter.ssloader.app.loaderConfiguarations.LoaderConfig.WEATHER32;
-import static com.skullshooter.ssloader.app.loaderConfiguarations.LoaderConfig.WEATHER_TYPE;
 
 public class ActivityUpdate extends Activity implements View.OnClickListener {
     public Preferences prefs;
@@ -322,7 +311,7 @@ public class ActivityUpdate extends Activity implements View.OnClickListener {
         mainUpdateLayout.setVisibility(View.GONE);
         error_function_layout.setVisibility(View.GONE);
         refresing.setText("Downloading update...");
-        theredes();
+        //theredes();
 
     }
 
@@ -336,7 +325,7 @@ public class ActivityUpdate extends Activity implements View.OnClickListener {
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
     }//InternetConnectio
 
-    private void theredes() {
+    /*private void theredes() {
         new Thread(() -> {
             try {
                 HttpURLConnection connection = (HttpURLConnection) new URL(UPDATE_LINK).openConnection();
@@ -414,6 +403,6 @@ public class ActivityUpdate extends Activity implements View.OnClickListener {
                 });
             }
         }).start();
-    }
+    }*/
 
 }

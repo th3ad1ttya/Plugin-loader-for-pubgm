@@ -1,4 +1,4 @@
-#Sat Oct 22 10:13:20 PDT 2022
-base.0=F\:\\Compleate Package-SkullShooter\\Android\\Loader+Plugins\\plugin\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
+#Sun Dec 04 23:15:02 AST 2022
+base.0=C\:\\Users\\th3ad1ttya\\Desktop\\PUBG\\Plugin-loader-for-pubgm\\plugin\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
