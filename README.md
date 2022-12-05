@@ -25,7 +25,7 @@
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#Compatible-with...">Compatible</a> •
+  <a href="#compatible-with">Compatible</a> •
 </p>
 
 ![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
