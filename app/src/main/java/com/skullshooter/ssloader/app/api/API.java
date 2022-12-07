@@ -1,7 +1,20 @@
 package com.skullshooter.ssloader.app.api;
 
 public class API {
-    public static String _API = "http://192.168.8.101/api/v2/fetchAppData";
+    /**
+     * TODO: Paste your domain, example: https://yourdomain.com/
+     * or
+     * if you paste the project inside any directory, paste the domain with mention the directory
+     * example: https://yourdomain.com/project_directory/
+     * **/
+    public static String _ROOT_URL = "http://192.168.8.101/Admin-Panel/Admin-panel-Laravel-9/";
+    public static String _API = _ROOT_URL + "api/v1/";
+
+    //API
+    public static String _LOADER_DATA = _API + "loaderData";
+    public static String _SAFETY_STATUS = _API + "safety-status";
+    public static String _PLUGIN32_DATA = _API + "plugin32Data";
+    public static String _PLUGIN64_DATA = _API + "plugin64Data";
 
     //Fetch data
     public static String API_LOADER_VERSION = "loaderVersion";
@@ -13,15 +26,6 @@ public class API {
     public static String PLUGIN64_VERSION = "plugin64Version";
     public static String PLUGIN64_URL = "plugin64Url";
     public static String IS_MAINTENANCE = "ismaintenance";
-    public static String LIB_PG_32_ARM_V8a_VERSION = "libpg32NativeArm_v8a.so_version";
-    public static String LIB_PG_32_ARM_V7a_VERSION = "libpg32NativeArm_v7a.so_version";
-    public static String LIB_PG_32_ARM_V8a_URL = "libpg32NativeArm_v8a.so_url";
-    public static String LIB_PG_32_ARM_V7a_URL = "libpg32NativeArm_v7a.so_url";
-
-    public static String LIB_PG_64_ARM_V8a_VERSION = "libpg64NativeArm_v8a.so_version";
-    public static String LIB_PG_64_ARM_V7a_VERSION = "libpg64NativeArm_v7a.so_version";
-    public static String LIB_PG_64_ARM_V8a_URL = "libpg64NativeArm_v8a.so_url";
-    public static String LIB_PG_64_ARM_V7a_URL = "libpg64NativeArm_v7a.so_url";
 
 
     //safetySave in prefs
