@@ -24,7 +24,7 @@ public class AppConfig {
     public static final String DATABASE = "https://update.json link here";
 
     //New instat
-    public static final String LOADER_VERSION = "loader_version";
+    public static final String LOADER_VERSION = "loaderVersion";
     public static final String PLUGIN_VERSION = "plugin_version";
 
     //SystemLoadLibrary
@@ -51,20 +51,10 @@ public class AppConfig {
 
 
     //JSON
-    public static final String UPDATE_LINK = "https://update.json link here";
-    public static final String pgARMV7ANative = "libpg32NativeArm_v7a.so";
-    public static final String pgARMV8ANative = "libpg32NativeArm_v8a.so";
     public static final String VERSION = "version";
-    public static final String SERVER_URL = "url";
-    public final static String pgARMV7ANative_version = "pgARMV7ANative_version";
-
-    public final static String WEATHER32 = "weather32";
-    public final static String WEATHER_TYPE = "typeWeather";
 
 
     public final static String CLEAR_WEATHER = "Clear";
-    public final static String SNOW_WEATHER = "Snow";
-    public final static String RAIN_WEATHER = "Rain";
 
 
     //LatestAdded For random Native execute

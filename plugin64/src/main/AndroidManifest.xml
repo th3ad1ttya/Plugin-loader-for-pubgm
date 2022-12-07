@@ -17,7 +17,8 @@
         android:label="${applicationId}"
         android:supportsRtl="false"
         android:theme="@style/Theme.Plugin">
-        <activity android:name="a.b"/>
+        <activity android:name="a.b"
+            android:theme="@style/Theme.Plugin"/>
         <activity android:name="a.c"/>
         <activity android:name="a.d"/>
         <activity android:name="a.e"/>

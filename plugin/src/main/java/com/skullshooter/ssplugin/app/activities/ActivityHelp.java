@@ -15,13 +15,6 @@
  \**********************************************************/
 package com.skullshooter.ssplugin.app.activities;
 
-import static com.skullshooter.ssplugin.app.configuaration.AppConfig.CLEAR_WEATHER;
-import static com.skullshooter.ssplugin.app.configuaration.AppConfig.RAIN_WEATHER;
-import static com.skullshooter.ssplugin.app.configuaration.AppConfig.SNOW_WEATHER;
-import static com.skullshooter.ssplugin.app.configuaration.AppConfig.UPDATE_LINK;
-import static com.skullshooter.ssplugin.app.configuaration.AppConfig.WEATHER32;
-import static com.skullshooter.ssplugin.app.configuaration.AppConfig.WEATHER_TYPE;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.graphics.Color;
@@ -57,54 +50,6 @@ public class ActivityHelp extends Activity implements View.OnClickListener {
 
         final ImageView back = findViewById(R.id.back);
         back.setOnClickListener(this);
-
-        WeatherView weatherView = findViewById(R.id.weather_view);
-        new Thread(() -> {
-            try {
-                HttpURLConnection connection = (HttpURLConnection) new URL(UPDATE_LINK).openConnection();
-                connection.setRequestMethod("GET");
-                connection.setInstanceFollowRedirects(true);
-                connection.setConnectTimeout(10000);
-                connection.setReadTimeout(10000);
-                connection.setRequestProperty("Connection", "close");
-                connection.connect();
-                int responseCode = connection.getResponseCode();
-                if (responseCode != 200) {
-                    throw new IOException("Server communication failed, Request not send into server. Please try again.");
-                }
-
-                JSONObject update;
-
-                InputStream inputStream = connection.getInputStream();
-                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                byte[] bArr = new byte[8192];
-                while (true) {
-                    long read = inputStream.read(bArr, 0, 8192);
-                    if (read != -1) {
-                        byteArrayOutputStream.write(bArr, 0, (int) read);
-                    } else {
-                        inputStream.close();
-                        connection.disconnect();
-                        update = new JSONObject(byteArrayOutputStream.toString("UTF-8"));
-                        break;
-                    }
-                }
-                String getWeatherData = update.getJSONObject(WEATHER32).getString(WEATHER_TYPE);
-                runOnUiThread(()->{
-                    if (getWeatherData.equals(CLEAR_WEATHER)) {
-                        weatherView.setWeatherData(PrecipType.CLEAR);
-                    }
-                    if (getWeatherData.equals(SNOW_WEATHER)) {
-                        weatherView.setWeatherData(PrecipType.SNOW);
-                    }
-                    if (getWeatherData.equals(RAIN_WEATHER)) {
-                        weatherView.setWeatherData(PrecipType.RAIN);
-                    }
-                });
-            } catch (IOException | JSONException e) {
-                e.printStackTrace();
-            }
-        }).start();
     }
 
     @SuppressLint("NewApi")

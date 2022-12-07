@@ -26,7 +26,7 @@ android {
             }
         }
         debug {
-            minifyEnabled true
+            minifyEnabled false
             jniDebuggable = true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             android.applicationVariants.all { variant ->

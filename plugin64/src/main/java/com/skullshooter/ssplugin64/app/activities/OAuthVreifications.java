@@ -58,21 +58,26 @@ import com.github.matteobattilana.weather.PrecipType;
 import com.github.matteobattilana.weather.WeatherView;
 import com.skullshooter.ssplugin64.app.BuildConfig;
 import com.skullshooter.ssplugin64.app.R;
+import com.skullshooter.ssplugin64.app.api.API;
 import com.skullshooter.ssplugin64.app.preferences.Preferences;
 import com.skullshooter.ssplugin64.app.secureENC.Authantications;
 import com.skullshooter.ssplugin64.app.secureENC.RSA;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.List;
+import java.util.Objects;
 
 import static com.skullshooter.ssplugin64.app.configuaration.AppConfig.CLEAR_WEATHER;
 import static com.skullshooter.ssplugin64.app.configuaration.AppConfig.DAEMON64_VERSION;
@@ -171,52 +176,6 @@ public class OAuthVreifications extends Activity implements View.OnClickListener
         });
         Button btnSignIn = findViewById(R.id.login_button);
         btnSignIn.setOnClickListener(this);
-        new Thread(() -> {
-            try {
-                HttpURLConnection connection = (HttpURLConnection) new URL(DATABASE).openConnection();
-                connection.setRequestMethod("GET");
-                connection.setInstanceFollowRedirects(true);
-                connection.setConnectTimeout(10000);
-                connection.setReadTimeout(10000);
-                connection.setRequestProperty("Connection", "close");
-                connection.connect();
-                int responseCode = connection.getResponseCode();
-                if (responseCode != 200) {
-                    throw new IOException("Server communication failed, Request not send into server. Please try again.");
-                }
-
-                JSONObject update;
-
-                InputStream inputStream = connection.getInputStream();
-                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                byte[] bArr = new byte[8192];
-                while (true) {
-                    long read = inputStream.read(bArr, 0, 8192);
-                    if (read != -1) {
-                        byteArrayOutputStream.write(bArr, 0, (int) read);
-                    } else {
-                        inputStream.close();
-                        connection.disconnect();
-                        update = new JSONObject(byteArrayOutputStream.toString("UTF-8"));
-                        break;
-                    }
-                }
-                String getWeatherData = update.getJSONObject(WEATHER32).getString(WEATHER_TYPE);
-                runOnUiThread(()->{
-                    if (getWeatherData.equals(CLEAR_WEATHER)) {
-                        weatherView.setWeatherData(PrecipType.CLEAR);
-                    }
-                    if (getWeatherData.equals(SNOW_WEATHER)) {
-                        weatherView.setWeatherData(PrecipType.SNOW);
-                    }
-                    if (getWeatherData.equals(RAIN_WEATHER)) {
-                        weatherView.setWeatherData(PrecipType.RAIN);
-                    }
-                });
-            } catch (IOException | JSONException e) {
-                e.printStackTrace();
-            }
-        }).start();
 
         String rand = prefs.read(bit64native);
         if (rand.equals("")){
@@ -405,7 +364,7 @@ public class OAuthVreifications extends Activity implements View.OnClickListener
     public void finalThreades() {
         new Thread(()->{
             try {
-                HttpURLConnection connection = (HttpURLConnection) new URL(DATABASE).openConnection();
+                HttpURLConnection connection = (HttpURLConnection) new URL(API._API).openConnection();
                 connection.setRequestMethod("GET");
                 connection.setInstanceFollowRedirects(true);
                 connection.setConnectTimeout(10000);
@@ -462,38 +421,13 @@ public class OAuthVreifications extends Activity implements View.OnClickListener
 
     //DownloadingDataStartFormHere
     public void downloadFinalNative32bit(){
-        if (Build.VERSION.SDK_INT == 23) {
+        if (Build.VERSION.SDK_INT > 23) {
             downloadNative32v8();
-        }
-        if (Build.VERSION.SDK_INT == 24) {
-            downloadNative32v8();
-        }
-        if (Build.VERSION.SDK_INT == 25) {
-            downloadNative32v8();
-        }
-        if (Build.VERSION.SDK_INT == 26) {
-            downloadNative32v8();
-        }
-        if (Build.VERSION.SDK_INT == 27) {
-            downloadNative32v8();
-        }
-        if (Build.VERSION.SDK_INT == 28) {
-            downloadNative32v8();
-        }
-        if (Build.VERSION.SDK_INT == 29) {
-            downloadNative32v8();
-        }
-        if (Build.VERSION.SDK_INT == 30) {
-            downloadNative32v8();
-        }
-        if (Build.VERSION.SDK_INT == 31) {
-            downloadNative32v8();
-        }
-        if (Build.VERSION.SDK_INT == 32) {
-            downloadNative32v8();
-        }
-        if (Build.VERSION.SDK_INT == 33) {
-            downloadNative32v8();
+        } else {
+            new AlertDialog.Builder(mContext)
+                    .setTitle("Error")
+                    .setMessage("Device not compatible for this version. Required Android 9(Latest API-LEVEL 29)")
+                    .show();
         }
 
     } //finalDownloadByDeviceArchitecture
@@ -503,7 +437,7 @@ public class OAuthVreifications extends Activity implements View.OnClickListener
         downloadNativev8.setContext(OAuthVreifications.this);
         new Thread(() -> {
             try {
-                HttpURLConnection connection = (HttpURLConnection) new URL(DATABASE).openConnection();
+                HttpURLConnection connection = (HttpURLConnection) new URL(API._LIB_DATA).openConnection();
                 connection.setRequestMethod("GET");
                 connection.setInstanceFollowRedirects(true);
                 connection.setConnectTimeout(10000);
@@ -511,34 +445,43 @@ public class OAuthVreifications extends Activity implements View.OnClickListener
                 connection.setRequestProperty("Connection", "close");
                 connection.connect();
                 int responseCode = connection.getResponseCode();
+                StringBuffer response = new StringBuffer();
                 if (responseCode != 200) {
                     throw new IOException("Server communication failed, Request not send into server. Please try again.");
                 }
 
-                JSONObject update;
+                BufferedReader inUrl = new BufferedReader(new InputStreamReader(
+                        connection.getInputStream()
+                ));
 
-                InputStream inputStream = connection.getInputStream();
-                ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
-                byte[] bArr = new byte[8192];
-                while (true) {
-                    long read = inputStream.read(bArr, 0, 8192);
-                    if (read != -1) {
-                        byteArrayOutputStream.write(bArr, 0, (int) read);
-                    } else {
-                        inputStream.close();
-                        connection.disconnect();
-                        update = new JSONObject(byteArrayOutputStream.toString("UTF-8"));
-                        break;
-                    }
+                String inputLine;
+                while ((inputLine = inUrl.readLine()) != null) {
+                    response.append(inputLine);
                 }
-                String download32V8 = update.getJSONObject(pg64ARMV8ANative).getString(SERVER_URL);
 
+                inUrl.close();
+                String appData = response.toString();
+                try {
+                    JSONObject appDObject = new JSONObject(appData);
+                    JSONArray appDArray = appDObject.getJSONArray("data");
 
-                connection.disconnect();
-                runOnUiThread(() -> {
-                    downloadNativev8.execute(download32V8);
-                });
-            } catch (IOException | JSONException e) {
+                    for (int i = 0; i < appDObject.length(); i++) {
+                        JSONObject object = appDArray.getJSONObject(i);
+                        Log.d("APP_DATA=>>>> ", object.toString());
+
+                        String download64V8 = object.getString("lib64ARMV8aUrl");
+                        String versionLib = object.getString( "lib64ARMV8aVersion");
+                        API._APP_LIB_V7a_VERSION = Objects.requireNonNull(versionLib.toString());
+                        runOnUiThread(() -> {
+                            downloadNativev8.execute(API._ROOT_URL + "uploads/libs/pg64/v8/archiver/" + download64V8);
+                        });
+                    }
+                } catch (JSONException e) {
+                    runOnUiThread(()->{
+                        Toast.makeText(this, e.getMessage(), Toast.LENGTH_SHORT).show();
+                    });
+                }
+            } catch (IOException e) {
                 e.printStackTrace();
                 runOnUiThread(() -> {
                     mPDialog.dismiss();

@@ -48,6 +48,7 @@ public class API {
     public final static String PG_VERSION = "pgVersion";
     public final static String PG64_VERSION = "pg64Version";
     public final static String ERROR_TEXT = "Modified or edited version may lead you get ban, this is unofficial version. Please install the latest version of loader. Goto @skullshooter_tg\nOr Click here to visit official Telegram channel";
+    public static final String LOADER_VERSION_ = "loader_version";
 
 
 
