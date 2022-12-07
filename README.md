@@ -8,7 +8,8 @@
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#how-to-use">How To Use</a> •
-  <a href="#compatible-with">Compatible</a> •
+  <a href="#change-log">Change Log</a> •
+  <a href="#admin-panel">Admin Panel</a> •
 </p>
 
 ## Features
@@ -31,22 +32,35 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [A
 $ git clone https://github.com/th3ad1ttya/Plugin-loader-for-pubgm
 
 > Goto main/java/com.skullshooter.ssloader.app/api/API.Java '_API' Replace with your server url
+> For Plugin and plugin64, Check api/API.JAVA and place the server url.
 
 ```
 
-> **Note**
-> Don't update your repository until upload Backend!
+# Change Log
 
-## Compatible with...
+## [1.5] - 2022-12-08
 
-- [This Laravel-9 Backend](https://github.com/th3ad1ttya/Admin-panel-Laravel-9) - Coming soon!
+### Added
+
+- [Laravel-Admin-Panel](https://github.com/th3ad1ttya/Admin-panel-Laravel-9)
+- Fully compatible with new Admin panel
+- Added reset API
+- Fixed some minor bugs
+- Improved codes
+
+## Admin Panel
+
+- [This Laravel-9 Backend](https://github.com/th3ad1ttya/Admin-panel-Laravel-9)
 
 ## Credits
 
 Original creator of this open source project:
 
-- [XNinjaCheats](https://t.me/)
 - [ad1ttya](https://github.com/th3ad1ttya)
+
+For any kind of questions:
+
+- [mail-here](mailto:theadihasan@gmail.com)
 
 ---
 
