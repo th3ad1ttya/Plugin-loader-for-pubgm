@@ -7,6 +7,7 @@ public class API {
      * if you paste the project inside any directory, paste the domain with mention the directory
      * example: https://yourdomain.com/project_directory/
      * **/
+    // This is the API URL, you can change it to your own API URL.
     public static String _ROOT_URL = "http://192.168.8.101/Admin-Panel/Admin-panel-Laravel-9/";
     public static String _API = _ROOT_URL + "api/v1/";
 
@@ -16,7 +17,8 @@ public class API {
     public static String _PLUGIN32_DATA = _API + "plugin32Data";
     public static String _PLUGIN64_DATA = _API + "plugin64Data";
 
-    //Fetch data
+
+    // These are the keys of the JSON response.
     public static String API_LOADER_VERSION = "loaderVersion";
     public static String ANNOUNCEMENT = "announcement";
     public static String STATUS32 = "status32bit";
@@ -28,7 +30,7 @@ public class API {
     public static String IS_MAINTENANCE = "ismaintenance";
 
 
-    //safetySave in prefs
+    // This is for saving the safety status of the loader.
     public static final String is32isSafe = "is32isSafe?";
     public static final String is64isSafe = "is64isSafe?";
     public static final String SAFE = "Safe";

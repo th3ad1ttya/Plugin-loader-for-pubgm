@@ -21,7 +21,15 @@ import android.content.Intent;
 
 import java.io.File;
 
+/**
+ * It deletes a file or directory recursively and triggers a rebirth of the app
+ */
 public class Utilities {
+    /**
+     * If the file is a directory, delete all the files in it, then delete the directory
+     *
+     * @param fileOrDirectory The file or directory to delete.
+     */
     public static void deleteRecursive(File fileOrDirectory) {
         if (fileOrDirectory == null)
             return;
@@ -37,6 +45,12 @@ public class Utilities {
         fileOrDirectory.delete();
     }
 
+    /**
+     * > It gets the launch intent for the current application, gets the component name from the
+     * intent, creates a new intent with the component name, and starts the activity
+     *
+     * @param context The context of the application.
+     */
     public static void triggerRebirth(Context context) {
         Intent intent = context.getPackageManager().getLaunchIntentForPackage(context.getPackageName());
         ComponentName componentName = intent.getComponent();

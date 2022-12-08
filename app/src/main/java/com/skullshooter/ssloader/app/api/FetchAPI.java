@@ -64,6 +64,27 @@ public class FetchAPI {
     public static String APIpluginVersion = "";
     public static String APIplugin64Version = "";
 
+    /**
+     * It fetches data from the server and parses it
+     *
+     * @param context The context of the activity
+     * @param connectionErrorTxt The textview that displays the error message when the loader is unable
+     * to connect to the server.
+     * @param refresh_layout The layout that contains the refresh button
+     * @param updates_info This is the layout that contains the update information.
+     * @param hackSelections The LinearLayout that contains the hack selections
+     * @param error_layout The layout that shows up when there's an error.
+     * @param announcements TextView to display announcements
+     * @param safety32bit TextView for 32bit safety status
+     * @param safety64bit TextView that displays the safety status of the 64bit loader
+     * @param download_launch_pg_32bit The download/launch page for the 32bit loader
+     * @param installation_status_32bit TextView that displays the installation status of the 32bit
+     * loader
+     * @param installation_status_64bit This is the TextView that displays the installation status of
+     * the 64bit loader.
+     * @param updateLoaderInfo_text This is the textview that displays the loader version.
+     * @param download_launch_pg_64bit The download/launch page for the 64bit loader
+     */
     public static void fetchData(Context context, TextView connectionErrorTxt, RelativeLayout refresh_layout,
                                  LinearLayout updates_info, LinearLayout hackSelections,
                                  RelativeLayout error_layout, TextView announcements,
@@ -237,6 +258,28 @@ public class FetchAPI {
         }).start();
     }
 
+    /**
+     * It checks if the plugin64 is installed or not, if it is installed then it checks if the plugin64
+     * is up-to-date or not, if it is up-to-date then it displays the version of the plugin64, if it is
+     * not up-to-date then it displays a button to update the plugin64, if the plugin64 is not
+     * installed then it displays a button to download the plugin64
+     *
+     * @param pluginData64 The JSON data that we got from the server.
+     * @param context The context of the activity.
+     * @param connectionErrorTxt TextView to show connection error
+     * @param refresh_layout The layout that contains the refresh button.
+     * @param updates_info The layout that contains the update information.
+     * @param hackSelections The layout that contains the hack selection buttons.
+     * @param error_layout The layout that shows up when there's an error.
+     * @param announcements TextView for announcements
+     * @param safety32bit TextView for 32-bit safety status
+     * @param safety64bit TextView that shows the safety status of the plugin.
+     * @param download_launch_pg_32bit The button that will be clicked to download the plugin.
+     * @param installation_status_32bit TextView to show the current version of the plugin32
+     * @param installation_status_64bit TextView to show the current version of the plugin.
+     * @param updateLoaderInfo_text This is the TextView that shows the current status of the download.
+     * @param download_launch_pg_64bit The button that will be clicked to download the plugin.
+     */
     private static void parsePlugin64Data(
             String pluginData64,
             Context context,
@@ -324,6 +367,27 @@ public class FetchAPI {
 
     }
 
+    /**
+     * It checks if the plugin is installed or not, if it is installed, it checks if the plugin is up
+     * to date or not, if it is up to date, it displays the version of the plugin, if it is not up to
+     * date, it displays a button to update the plugin
+     *
+     * @param pluginData The data that is returned from the API.
+     * @param context The context of the activity.
+     * @param connectionErrorTxt TextView to show connection error
+     * @param refresh_layout The layout that contains the refresh button.
+     * @param updates_info The layout that contains the update information.
+     * @param hackSelections The layout that contains the hack selection buttons.
+     * @param error_layout The layout that will be shown when there's an error.
+     * @param announcements TextView for announcements
+     * @param safety32bit This is the textview that shows the safety status of the plugin.
+     * @param safety64bit This is the textview that shows the version of the plugin.
+     * @param download_launch_pg_32bit The button that will be clicked to download the plugin.
+     * @param installation_status_32bit TextView to show the current version of the plugin.
+     * @param installation_status_64bit TextView to show the status of the plugin.
+     * @param updateLoaderInfo_text This is the TextView that shows the progress of the download.
+     * @param download_launch_pg_64bit The button that will be clicked to download the plugin.
+     */
     private static void parsePluginData(
             String pluginData, Context context,
             TextView connectionErrorTxt,
@@ -409,6 +473,26 @@ public class FetchAPI {
         }
     }
 
+    /**
+     * It parses the JSON data received from the server and displays the safety status of the app
+     *
+     * @param safetyStatus The response from the server.
+     * @param context The context of the activity.
+     * @param connectionErrorTxt TextView to display connection error
+     * @param refresh_layout The layout that contains the refresh button.
+     * @param updates_info The layout that contains the safety status of the app.
+     * @param hackSelections The layout that contains the buttons for the hacks.
+     * @param error_layout The layout that is shown when there is an error in the app.
+     * @param announcements TextView for announcements
+     * @param safety32bit TextView for 32bit safety status
+     * @param safety64bit TextView for 64bit safety status
+     * @param download_launch_pg_32bit The download/launch page for 32-bit
+     * @param installation_status_32bit TextView that displays the installation status of the 32-bit
+     * version of the app.
+     * @param installation_status_64bit TextView that displays the status of the 64bit installation
+     * @param updateLoaderInfo_text TextView that displays the update status
+     * @param download_launch_pg_64bit The download/launch page for the 64-bit version of the app.
+     */
     private static void parseSafetyData(
             String safetyStatus,
             Context context,
@@ -473,7 +557,30 @@ public class FetchAPI {
         }
     }
 
-    //Parse App data
+
+    /**
+     * It parses the data received from the server and displays it on the UI
+     *
+     * @param data The data that is returned from the server.
+     * @param context The context of the activity
+     * @param connectionErrorTxt TextView to display connection error
+     * @param refresh_layout The layout that contains the refresh button.
+     * @param updates_info This is the layout that contains the update information.
+     * @param hackSelections The layout that contains the hack selection buttons
+     * @param error_layout The layout that contains the error textview and the refresh button.
+     * @param announcements TextView to display announcements
+     * @param safety32bit TextView for 32bit safety status
+     * @param safety64bit TextView that displays the safety status of the 64bit loader
+     * @param download_launch_pg_32bit This is the layout that contains the download and launch buttons
+     * for the 32-bit loader.
+     * @param installation_status_32bit TextView that displays the installation status of the 32bit
+     * loader
+     * @param installation_status_64bit TextView that displays the installation status of the 64bit
+     * loader
+     * @param updateLoaderInfo_text This is the textview that displays the loader version.
+     * @param download_launch_pg_64bit This is the layout that contains the download and launch buttons
+     * for the 64bit loader.
+     */
     public static void parseAppData(String data, Context context, TextView connectionErrorTxt, RelativeLayout refresh_layout,
                                     LinearLayout updates_info, LinearLayout hackSelections,
                                     RelativeLayout error_layout, TextView announcements,
@@ -511,7 +618,26 @@ public class FetchAPI {
         }
     }
 
-    //Download Plugin
+
+    /**
+     * It downloads a file from a given URL and saves it to a given directory
+     *
+     * @param context The context of the activity
+     * @param refresh_layout The layout that shows the download progress
+     * @param updates_info The layout that contains the update information
+     * @param hackSelections The layout that contains the hack selections
+     * @param error_layout The layout that will be shown when there's an error
+     * @param updateLoaderInfo_text The textview that shows the download progress
+     * @param connectionErrorTxt TextView to display the error message
+     * @param pgLink The link to the plugin file
+     * @param PLUG The name of the folder where the plugin will be stored.
+     * @param pluginDir The directory where the plugin will be saved.
+     * @param pluginName The name of the plugin you want to download.
+     * @param downloadInfo The text that will be displayed while downloading the plugin.
+     * @param pluginVersion The name of the preference that will be used to store the version of the
+     * plugin.
+     * @param fromApiVersion The version of the plugin that you want to download.
+     */
     public static void downloadPlugin(Context context, RelativeLayout refresh_layout, LinearLayout updates_info, LinearLayout hackSelections, RelativeLayout error_layout,
                                       TextView updateLoaderInfo_text, TextView connectionErrorTxt, String pgLink, String PLUG, String pluginDir, String pluginName, String downloadInfo,
                                       String pluginVersion, String fromApiVersion) {
@@ -604,6 +730,23 @@ public class FetchAPI {
 
     }
 
+    /**
+     * It downloads the plugin from the API.
+     *
+     * @param context The context of the activity.
+     * @param refresh_layout The layout that contains the refresh button.
+     * @param updates_info The layout that contains the update information.
+     * @param hackSelections The layout that contains the hack selection buttons.
+     * @param error_layout The layout that shows up when there's an error.
+     * @param updateLoaderInfo_text TextView that shows the download progress
+     * @param connectionErrorTxt TextView to display error message
+     * @param PLUG The plugin name.
+     * @param pluginDir The directory where the plugin will be downloaded.
+     * @param pluginName The name of the plugin.
+     * @param downloadInfo The text that will be displayed in the download dialog.
+     * @param pluginVersion The version of the plugin that is currently installed on the device.
+     * @param fromApiVersion The version of the plugin that is currently installed on the device.
+     */
     public static void downloadPlugin32WithDialogVersionFirstTime(Context context, RelativeLayout refresh_layout, LinearLayout updates_info, LinearLayout hackSelections, RelativeLayout error_layout,
                                                                   TextView updateLoaderInfo_text, TextView connectionErrorTxt, String PLUG, String pluginDir, String pluginName, String downloadInfo,
                                                                   String pluginVersion, String fromApiVersion) {
@@ -649,6 +792,23 @@ public class FetchAPI {
         });
     }
 
+    /**
+     * It downloads the plugin from the API and then launches the game
+     *
+     * @param context The context of the activity.
+     * @param refresh_layout The layout that contains the refresh button.
+     * @param updates_info The layout that contains the update information.
+     * @param hackSelections The layout that contains the hack selection buttons.
+     * @param error_layout The layout that shows up when there's an error.
+     * @param updateLoaderInfo_text TextView that shows the download progress
+     * @param connectionErrorTxt TextView that displays the error message
+     * @param PLUG The plugin directory.
+     * @param pluginDir The directory where the plugin will be downloaded to.
+     * @param pluginName The name of the plugin.
+     * @param downloadInfo The text that will be displayed in the updateLoaderInfo_text TextView.
+     * @param pluginVersion The version of the plugin that is currently installed on the device.
+     * @param fromApiVersion The version of the plugin that is currently installed.
+     */
     public static void downloadPlugin64WithDialogVersionFirstTime(Context context, RelativeLayout refresh_layout, LinearLayout updates_info, LinearLayout hackSelections, RelativeLayout error_layout,
                                                             TextView updateLoaderInfo_text, TextView connectionErrorTxt, String PLUG, String pluginDir, String pluginName, String downloadInfo,
                                                             String pluginVersion, String fromApiVersion) {
@@ -694,7 +854,13 @@ public class FetchAPI {
         });
     }
 
-    //InternetConnectio
+
+    /**
+     * It checks if the device is connected to the internet.
+     *
+     * @param context The context of the activity.
+     * @return A boolean value.
+     */
     @SuppressLint("MissingPermission")
     public static boolean isInternetAvailable(Context context) {
         @SuppressLint({"NewApi", "LocalSuppress"}) ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -703,6 +869,6 @@ public class FetchAPI {
             activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
         }
         return activeNetworkInfo != null && activeNetworkInfo.isConnected();
-    }//InternetConnectio
+    }
 
 }

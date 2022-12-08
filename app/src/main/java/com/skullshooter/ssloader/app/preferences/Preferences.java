@@ -37,6 +37,10 @@ public class Preferences {
         );
     }
 
+    /**
+     * It's a wrapper around the SharedPreferences.Editor class that encrypts all the values before
+     * storing them in the SharedPreferences
+     */
     public final class Editor implements SharedPreferences.Editor {
         private SharedPreferences.Editor mEditor;
         private Editor() {
@@ -141,6 +145,11 @@ public class Preferences {
         return (encryptedValue != null) ? encryptedValue : defaultValue;
     }
 
+    /**
+     * It gets all the values from the shared preferences, decrypts them, and returns them in a map
+     *
+     * @return A map of all the values in the shared preferences.
+     */
     public Map<String, String> getAll() {
         final Map<String, ?> encryptedMap = sharedPreferences.getAll();
         final Map<String, String> decryptedMap = new HashMap<String, String>(
@@ -342,6 +351,12 @@ public class Preferences {
     public void clear() {
         sharedPreferences.edit().clear().apply();
     }
+    /**
+     * It takes a string, encrypts it, and returns the encrypted string
+     *
+     * @param str The string to encrypt
+     * @return The encrypted string
+     */
     private static String encrypt(String str)
     {
         try {
@@ -351,6 +366,12 @@ public class Preferences {
         }
     }
 
+    /**
+     * It takes a string, decrypts it, and returns the decrypted string
+     *
+     * @param str The string to decrypt
+     * @return The decrypted string.
+     */
     private static String decrypt(String str)
     {
         try {

@@ -30,6 +30,9 @@ import java.lang.reflect.Method;
 import java.util.Collection;
 import java.util.Map;
 
+/**
+ * It replaces the resources of the current application with the resources of the specified apk file
+ */
 public class RCHPatcher {
     private static final String TAG = "RP";
 

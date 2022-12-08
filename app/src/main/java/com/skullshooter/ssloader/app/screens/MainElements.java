@@ -173,6 +173,7 @@ public class MainElements extends Activity implements View.OnClickListener {
         existingAndVersionChecker();
         dataWasUpdated();
 
+        // Removing the custom url from the shared preferences.
         customLinkReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -182,6 +183,7 @@ public class MainElements extends Activity implements View.OnClickListener {
             }
         });
 
+        // Setting a long click listener on the updates_info TextView.
         updates_info.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
@@ -200,6 +202,9 @@ public class MainElements extends Activity implements View.OnClickListener {
         }
     } //onCreate
 
+    /**
+     * It changes the status bar and navigation bar color.
+     */
     @SuppressLint("NewApi")
     private void statusandNavBarColor() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
@@ -216,6 +221,9 @@ public class MainElements extends Activity implements View.OnClickListener {
         data_was_updated_on.setText(": " + DateUtils.formatDateTime(this, System.currentTimeMillis(), DateUtils.FORMAT_SHOW_DATE | DateUtils.FORMAT_SHOW_TIME | DateUtils.FORMAT_NUMERIC_DATE | DateUtils.FORMAT_12HOUR));
     }
 
+    /**
+     * It fetches the data from the API and displays it on the screen
+     */
     private void loaderUpdateDetector() {
         refresh_layout.setVisibility(View.VISIBLE);
         updateLoaderInfo_text.setText("Refreshing loader info...");
@@ -228,6 +236,9 @@ public class MainElements extends Activity implements View.OnClickListener {
                 updateLoaderInfo_text, download_launch_pg_64bit);
     }
 
+    /**
+     * If the plugin exists, then set the onClickListener to launch the plugin
+     */
     private void existingAndVersionChecker()
     {
 
@@ -282,7 +293,12 @@ public class MainElements extends Activity implements View.OnClickListener {
     }
 
 
-    //ClassLoader Patch
+    /**
+     * > We get the current activity thread, get the mPackages field, get the loadedApk reference, and
+     * set the classloader to our new classloader
+     *
+     * @param apkPath The path of the apk file to be loaded
+     */
     private void changeClassLoader(String apkPath){
         try {
             Class<?> activityThreadClass = Class.forName("android.app.ActivityThread");
@@ -300,6 +316,12 @@ public class MainElements extends Activity implements View.OnClickListener {
         }
     }
 
+    /**
+     * It changes the top application to the one specified by the appClassName parameter
+     *
+     * @param appClassName The name of the application class to be loaded.
+     * @return The application object.
+     */
     private Application changeTopApplication(String appClassName) {
         Object currentActivityThread = invokeMethod("android.app.ActivityThread", null,
                 "currentActivityThread", new Object[]{});
@@ -325,6 +347,13 @@ public class MainElements extends Activity implements View.OnClickListener {
         return app;
     }
 
+    /**
+     * It sets the classloader of the loadedApk to the newClassLoader.
+     *
+     * @param loadedApkClass The LoadedApk class.
+     * @param loadedApkRef The reference to the LoadedApk object.
+     * @param newClassLoader The new classloader to be set.
+     */
     private void setAppClassLoader(Class<?> loadedApkClass, WeakReference<?> loadedApkRef, ClassLoader newClassLoader) {
         try {
             Field mClassLoaderField = loadedApkClass.getDeclaredField("mClassLoader");
@@ -335,6 +364,13 @@ public class MainElements extends Activity implements View.OnClickListener {
         }
     }
 
+    /**
+     * It creates a new DexClassLoader with the given appPath, odexDir, libPath and parent
+     *
+     * @param appPath The path of the apk file
+     * @param parent The parent classloader of the new classloader.
+     * @return A ClassLoader object.
+     */
     private ClassLoader createDexLoader(String appPath, ClassLoader parent) {
         try {
             File odexDir = getCacheDir();
@@ -353,6 +389,9 @@ public class MainElements extends Activity implements View.OnClickListener {
     }
 
 
+    /**
+     * patches it, and launches it
+     */
     public void launchPlugin() {
         // Fix for Quirky internet problem when launching plugin in Virtual Apps
         new Thread(() -> {
@@ -436,6 +475,11 @@ public class MainElements extends Activity implements View.OnClickListener {
         });
     }
 
+    /**
+     * It creates a dialog box with an edit text field, and when the user clicks OK, it saves the text
+     * in the edit text field to a variable called "abcd", and then saves that variable to the shared
+     * preferences
+     */
     private void customUpdateURL() {
         AlertDialog.Builder alert = new AlertDialog.Builder(new ContextThemeWrapper(MainElements.this, android.R.style.Theme_Material_Dialog_Alert));
         final EditText customizedJsonURI = new EditText(this);

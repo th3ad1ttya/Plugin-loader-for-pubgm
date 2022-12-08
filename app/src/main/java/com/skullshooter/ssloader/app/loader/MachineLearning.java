@@ -19,6 +19,15 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
 public class MachineLearning {
+    /**
+     * It invokes a method on an object, and returns the result
+     *
+     * @param clazz The class that contains the method you want to invoke.
+     * @param obj the object to invoke the method on
+     * @param methodName the name of the method you want to invoke
+     * @param args the arguments to be passed to the method
+     * @return The return value of the method.
+     */
     static Object invokeMethod(Class<?> clazz, Object obj, String methodName, Object[] args, Class<?>... parameterTypes){
         try {
             Method method = clazz.getDeclaredMethod(methodName, parameterTypes);
@@ -30,6 +39,15 @@ public class MachineLearning {
         return null;
     }
 
+    /**
+     * It invokes a method on a class.
+     *
+     * @param className The class name of the object you want to invoke the method on.
+     * @param obj the object on which to call the method
+     * @param methodName The name of the method to be invoked.
+     * @param args the parameters of the method
+     * @return The return value of the method.
+     */
     public static Object invokeMethod(String className, Object obj, String methodName, Object[] args, Class<?>... parameterTypes){
         try {
             if (parameterTypes == null) {
@@ -46,6 +64,14 @@ public class MachineLearning {
         return null;
     }
 
+    /**
+     * Get the value of a field from an object, even if it's private.
+     *
+     * @param clazz The class of the object you want to get the field value from.
+     * @param obj the object to be operated on
+     * @param fieldName The name of the field you want to get the value of.
+     * @return The value of the field.
+     */
     static Object getFieldValue(Class<?> clazz, Object obj, String fieldName){
         try {
             Field field = clazz.getDeclaredField(fieldName);
@@ -57,6 +83,14 @@ public class MachineLearning {
         return null;
     }
 
+    /**
+     * It returns the value of the field with the given name in the given object
+     *
+     * @param className The class name of the object.
+     * @param obj the object to get the field value from
+     * @param fieldName The name of the field you want to get the value of.
+     * @return The value of the field.
+     */
     public static Object getFieldValue(String className, Object obj, String fieldName){
         try {
             Class<?> clazz = Class.forName(className);
@@ -67,6 +101,14 @@ public class MachineLearning {
         return null;
     }
 
+    /**
+     * Set the value of the field named fieldName in the object obj to the value value.
+     *
+     * @param clazz The class of the object you want to modify.
+     * @param obj the object to be modified
+     * @param fieldName The name of the field you want to set the value of.
+     * @param value the value to be set
+     */
     static void setFieldValue(Class<?> clazz, Object obj, String fieldName, Object value){
         try {
             Field field = clazz.getDeclaredField(fieldName);
@@ -77,6 +119,14 @@ public class MachineLearning {
         }
     }
 
+    /**
+     * Set the value of the field with the given name in the given object to the given value.
+     *
+     * @param className The class name of the object.
+     * @param obj the object whose field you want to modify
+     * @param fieldName The name of the field you want to set the value of.
+     * @param value the value to be set
+     */
     public static void setFieldValue(String className, Object obj, String fieldName, Object value){
         try {
             Class<?> clazz = Class.forName(className);
